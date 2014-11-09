@@ -1,0 +1,12 @@
+La Teoría de la computabilidad es la parte de la computación que estudia los problemas de decisión que pueden ser resueltos con un algoritmo o equivalentemente con una máquina de Turing. La teoría de la computabilidad se interesa a cuatro preguntas:
+¿Qué problemas puede resolver una máquina de Turing?
+¿Qué otros formalismos equivalen a las máquinas de Turing?
+¿Qué problemas requieren máquinas más poderosas?
+¿Qué problemas requieren máquinas menos poderosas?
+La teoría de la complejidad computacional clasifica las funciones computables según el uso que hacen de diversos recursos en diversos tipos de máquina.
+¿Qué problemas puede resolver una máquina de Turing?
+No todos los problemas pueden ser resueltos. Un problema indecidible es uno que no puede ser resuelto con un algoritmo aún si se dispone de espacio y tiempo ilimitado. Actualmente se conocen muchos problemas indecidibles, como por ejemplo:
+El Entscheidungsproblem (problema de decisión en alemán) que se define como: Dada una frase del cálculo de predicados de primer orden, decidir si ella es un teorema. Church y Turing demostraron independientemente que este problema es indecidible (ver Tesis de Church-Turing).
+El Problema de la parada, que se define así: Dado un programa y su entrada, decidir si ese programa terminará para esa entrada o si correrá indefinidamente. Turing demostró que se trata de un problema indecidible.
+Un número computable es un número real que puede ser aproximado por un algoritmo con un nivel de exactitud arbitrario. Turing demostró que casi todos los números no son computables. Por ejemplo, la Constante de Chaitin no es computable aunque sí que está bien definido.
+

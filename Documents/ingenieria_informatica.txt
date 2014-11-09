@@ -1,0 +1,10 @@
+La ingeniería informática es la rama de la ingeniería que aplica los fundamentos de la ciencia de la computación, la electrónica y la ingeniería de software, para el desarrollo de soluciones integrales de cómputo y comunicaciones, capaces de procesar información de manera automática.
+Los conocimientos para ejercer de Ingeniero en Informática engloban un extenso número de áreas teóricas dentro de la Ciencia Aplicada denominada Informática que le confieren las siguientes capacidades profesionales:
+Conocimientos de Teoría de la Computabilidad para calcular la viabilidad y los de eficiencia para la mecanización industrial de la información (escalabilidad, confiabilidad, etc)
+Conocimientos de Teoría de la información y Telecomunicaciones para calcular y diseñar los modelos y redes de comunicación de la información por cauces seguros y legales que permitan su control y auditoría acordes a necesidades de seguridad y disponibilidad.
+Conocimientos de Teoría de autómatas y Teoría de diseño de algoritmos y Lenguajes Formales para diseñar las soluciones idóneas de automatización en el procesamiento de la información.
+Conocimientos de ingeniería del software para evaluar las mejores técnicas de diseño, construcción y mantenimiento de software, sujetos a cálculos de restricciones de calidad, tiempo, coste, etc.
+Conocimientos de inteligencia artificial o ingeniería del conocimiento como el reconocimiento de patrones o las redes neuronales para calcular y diseñar sistemas de producción de conocimiento como ventaja competitiva industrial en el manejo de la información.
+Conocimientos de Electrónica para calcular y diseñar interfaces de comunicación y control entre computadores y diversos dispositivos mecánicos y eléctricos, tales como sistemas de adquisición de datos, instrumentación virtual, control de robots, sistemas de iluminación u otros.
+Conocimientos de Organización industrial y empresarial, para la planificación, dirección y control de proyectos informáticos y la dirección departamentos de TIC.
+Conocimientos hardware para analizar y diseñar soluciones en el ámbito de la arquitectura de microprocesadores.

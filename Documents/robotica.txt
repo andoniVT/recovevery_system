@@ -1,0 +1,3 @@
+La robótica es la rama de la tecnología diferenciada de la telecomunicación (cuya función es cubrir todas las formas de comunicación a distancia)que se dedica al diseño, construcción, operación, disposición estructural, manufactura y aplicación de los robots. La robótica combina diversas disciplinas como son: la mecánica, la electrónica, la informática, la inteligencia artificial y la ingeniería de control. Otras áreas importantes en robótica son el álgebra, los autómatas programables y las máquinas de estados.
+El término robot se popularizó con el éxito de la obra RUR (Robots Universales Rossum), escrita por Karel Capek en 1920. En la traducción al inglés de dicha obra, la palabra checa robota, que significa trabajos forzados, fue traducida al inglés como robot.
+

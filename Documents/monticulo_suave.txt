@@ -1,0 +1,7 @@
+En computación, un montículo suave (soft heap en inglés) es una variante de la estructura de datos montículo. Fue concebida por Bernard Chazelle en el año 2000. Al corromper (aumentar) cuidadosamente las claves de a lo sumo un cierto porcentaje fijo de valores en el montículo, logra obtener acceso en tiempo constante amortizado para sus cuatro operaciones:
+create(S): Create un nuevo montículo suave
+insert(S, x): Inserta un elemento en un montículo suave
+meld(S, S' ): Combina el contenido de dos montículo suaves en uno. Ambos parámetros son destruidos en el proceso
+delete(S, x): Borra un elemento de un montículo suave
+findmin(S): Obtiene el elemento de clave mínima en el montículo suave
+Otros montículos como el montículo de Fibonacci logran este tipo de cota para algunas operaciones sin necesidad de corromper las claves, sin embargo, no logran acotar de forma constante la crítica operación delete. El porcentaje de valores que son modificados puede ser escogido libremente, pero mientras más bajo sea, más tiempo requieren las inserciones (O(log 1/ε) para una tasa de ε). Las corrupciones bajan efectivamente la entropía de información.
