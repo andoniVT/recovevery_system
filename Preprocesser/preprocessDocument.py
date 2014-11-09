@@ -11,8 +11,8 @@ import unicodedata
 from unicodedata import normalize
 import snowballstemmer
 import string
-#from configuration.settings import stop_words 
-#stopWordFile = stop_words
+from Configuration.settings import stop_words 
+stopWordFile = stop_words
 
 class PreProcessor(object):
     
@@ -92,7 +92,17 @@ class PreProcessor(object):
         return lematizado
     
     def remove_stop_word(self, comentario):
-        pass
+        arch = open(stopWordFile , 'r')
+        stops = []
+        for line in arch:
+            word = line.strip()
+            stops.append(word)
+        text_list = []
+        words = re.split("\s+",comentario)        
+        for word in words:
+            if len(word)>1 and (not word in stops):
+                text_list.append(word)
+        return " ".join(text_list)
     
     def process_comment(self , comentario):
         comentario = self.remove_accent(comentario)
@@ -106,15 +116,14 @@ class PreProcessor(object):
         predicate = lambda x:x not in string.punctuation
         comentario  = filter(predicate, comentario)
         pattern = re.compile(r"(.)\1{1,}", re.DOTALL)
-        #comentario = self.remove_stop_word(comentario)
-        #result = pattern.sub(r"\1\1", comentario)
+        comentario = self.remove_stop_word(comentario)
         return self.lemmatized_comment(comentario)
     
-    def get_processed_comment(self):
+    def get_processed_document(self):
         return self.__new_comment
             
 if __name__ == '__main__':
     
-    asking = "¿hello! what's your name ¡ ?"
+    asking = "Los que esta noche van a la redonda a celebrar la victoria del Equipo-Real_Madrid Real Madrid les espero para #TeQuieroMucho cuando suba el Equipo @realmurciacfsad a primera."
     procesor = PreProcessor(asking)
-    print procesor.get_processed_comment()
+    print procesor.get_processed_document()

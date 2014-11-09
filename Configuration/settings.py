@@ -10,4 +10,6 @@ path_home = '/home/andoni/Escritorio/PythonProjets/InfRecoverySistem'
 #path = path_cicc
 path = path_home
 
-print path
+
+''' resource '''
+stop_words = path + '/Resource/stopwords_spanish.txt'
