@@ -7,7 +7,8 @@ Created on 09/11/2014
 class CorpusPreProcessor(object):
     
     def __init__(self):
-        pass
+        self.__corpus = []
+        
     
 if __name__ == '__main__':
     pass
