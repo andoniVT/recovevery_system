@@ -17,3 +17,10 @@ stop_words = path + '/Resource/stopwords_spanish.txt'
 
 #souce_dir = "prueba/*.txt"
 documents = path + '/Documents/*.txt'
+
+
+''' corpus names '''
+
+name_simple_corpus = 'corpus.pk1' 
+name_processed_corpus = 'preprocessed_corpus.pk1'
+matrix_model = 'matrix_model.pk1' 

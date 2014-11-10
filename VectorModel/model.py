@@ -1,8 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 '''
 Created on 09/11/2014
 
 @author: andoni
 '''
+
+import sys  
+reload(sys)  
+sys.setdefaultencoding('utf8')
 
 class BooleanModel(object):
     
@@ -28,8 +34,9 @@ class BooleanModel(object):
     
     def generate_matrix_model(self):
         vocabulary = self.get_vocabulary()
-        print vocabulary
+        print len(vocabulary)
         matrix = []
+        val = 1
         for i in self.__documents:
             vector = []
             words = i.split(' ')
@@ -38,11 +45,11 @@ class BooleanModel(object):
                     vector.append(1)
                 else:
                     vector.append(0)
+            print "numero: " + str(val) + " len vec: " + str(len(vector))
+            val+=1
             matrix.append(vector)
         return matrix
-                
-                    
-                                 
+                                                                     
 if __name__ == '__main__':
     
     docs = ['hola como estas' ,'yo estoy bien' ,'hola me llamo Andoni' ,'bien yo me llamo Jorge' ,'esto es perfecto' ,'estas te encuentas ahi' ]

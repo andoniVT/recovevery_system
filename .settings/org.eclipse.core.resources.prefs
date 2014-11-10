@@ -1,3 +1,4 @@
 eclipse.preferences.version=1
 encoding//Manager/manager.py=utf-8
 encoding//Preprocesser/preprocessDocument.py=utf-8
+encoding//VectorModel/model.py=utf-8

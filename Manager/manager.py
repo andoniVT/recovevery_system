@@ -12,14 +12,16 @@ sys.setdefaultencoding('utf8')
 
 
 import glob
-from Configuration.settings import documents
+from Configuration.settings import documents , name_simple_corpus , name_processed_corpus , matrix_model
 from Preprocesser.preprocessDocument import PreProcessor as PP
+from VectorModel.model import BooleanModel as BM
+import cPickle
 
 class SRI_Manager(object):
     
     def __init__(self):
         self.__corpus = []
-        self.__preprocessed_corus = []
+        self.__preprocessed_corpus = []
         self.__matrix_model = []
     
     def load_corpus(self):
@@ -33,7 +35,10 @@ class SRI_Manager(object):
                 words = words + line + " "
             corpus.append(words)  
             f.close()
-        self.__corpus = corpus
+        #self.__corpus = corpus
+        
+        with open(name_simple_corpus , 'wb') as fid:
+            cPickle.dump(corpus , fid)
         return corpus
     
     def pre_process_corpus(self):
@@ -43,13 +48,26 @@ class SRI_Manager(object):
             procesor = PP(i)
             proccesed = procesor.get_processed_document()
             processed_corpus.append(proccesed)
+        #self.__preprocessed_corpus = processed_corpus
+        with open(name_processed_corpus , 'wb') as fid:
+            cPickle.dump(processed_corpus , fid)
         return processed_corpus
                                              
     def organize_documents(self):
-        pass
+        documents = self.pre_process_corpus()
+        
+        model = BM(documents)
+        matrix = model.generate_matrix_model()
+        for i in matrix:
+            print i
+        
+        with open(matrix_model , 'wb') as fid:
+            cPickle.dump(matrix , fid)
+        
+                
         '''
-          * cargar todos los txts
-          * pre procesarlos
+          * cargar todos los txts ---
+          * pre procesarlos    ----
           * convertirlos a booleanos
           * guardar los vectores en un binario
         '''
@@ -69,9 +87,10 @@ class SRI_Manager(object):
 if __name__ == '__main__':
    
     manager = SRI_Manager()
-    documentos = manager.pre_process_corpus()
-    for i in documentos:
-        print i
+    manager.organize_documents()
+    #documentos = manager.pre_process_corpus()
+    #for i in documentos:
+     #   print i
    
    
     
