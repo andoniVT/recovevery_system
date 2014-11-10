@@ -1,10 +1,10 @@
-El procesamiento digital de imágenes es el conjunto de técnicas que se aplican a las imágenes digitales con el objetivo de mejorar la calidad o facilitar la búsqueda de información.
+El procesamiento digital de imagenes es el conjunto de tecnicas que se aplican a las imagenes digitales con el objetivo de mejorar la calidad o facilitar la busqueda de informacion.
 Proceso de filtrado
-Es el conjunto de técnicas englobadas dentro del preprocesamiento de imágenes cuyo objetivo fundamental es obtener, a partir de una imagen origen, otra final cuyo resultado sea más adecuado para una aplicación específica mejorando ciertas características de la misma que posibilite efectuar operaciones del procesado sobre ella.
-Los principales objetivos que se persiguen con la aplicación de filtros son:
-Suavizar la imagen: reducir la cantidad de variaciones de intensidad entre píxeles vecinos.
-Eliminar ruido: eliminar aquellos píxeles cuyo nivel de intensidad es muy diferente al de sus vecinos y cuyo origen puede estar tanto en el proceso de adquisición de la imagen como en el de transmisión.
+Es el conjunto de tecnicas englobadas dentro del preprocesamiento de imagenes cuyo objetivo fundamental es obtener, a partir de una imagen origen, otra final cuyo resultado sea mas adecuado para una aplicacion especifica mejorando ciertas caracteristicas de la misma que posibilite efectuar operaciones del procesado sobre ella.
+Los principales objetivos que se persiguen con la aplicacion de filtros son:
+Suavizar la imagen: reducir la cantidad de variaciones de intensidad entre pixeles vecinos.
+Eliminar ruido: eliminar aquellos pixeles cuyo nivel de intensidad es muy diferente al de sus vecinos y cuyo origen puede estar tanto en el proceso de adquisicion de la imagen como en el de transmision.
 Realzar bordes: destacar los bordes que se localizan en una imagen.
-Detectar bordes: detectar los píxeles donde se produce un cambio brusco en la función intensidad.
-Por tanto, se consideran los filtros como operaciones que se aplican a los píxeles de una imagen digital para optimizarla, enfatizar cierta información o conseguir un efecto especial en ella.
+Detectar bordes: detectar los pixeles donde se produce un cambio brusco en la funcion intensidad.
+Por tanto, se consideran los filtros como operaciones que se aplican a los pixeles de una imagen digital para optimizarla, enfatizar cierta informacion o conseguir un efecto especial en ella.
 El proceso de filtrado puede llevarse a cabo sobre los dominios de frecuencia y/o espacio.

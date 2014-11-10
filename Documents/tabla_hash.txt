@@ -1,12 +1,12 @@
-Una tabla hash, mapa hash o tabla de dispersión es una estructura de datos que asocia llaves o claves con valores. La operación principal que soporta de manera eficiente es la búsqueda: permite el acceso a los elementos (teléfono y dirección, por ejemplo) almacenados a partir de una clave generada (usando el nombre o número de cuenta, por ejemplo). Funciona transformando la clave con una función hash en un hash, un número que identifica la posición (casilla o cubeta) donde la tabla hash localiza el valor deseado.
-Las tablas hash se suelen implementar sobre vectores de una dimensión, aunque se pueden hacer implementaciones multi-dimensionales basadas en varias claves. Como en el caso de los arrays, las tablas hash proveen tiempo constante de búsqueda promedio O(1),1 sin importar el número de elementos en la tabla. Sin embargo, en casos particularmente malos el tiempo de búsqueda puede llegar a O(n), es decir, en función del número de elementos.
-Comparada con otras estructuras de arrays asociadas, las tablas hash son más útiles cuando se almacenan grandes cantidades de información.
-Las tablas hash almacenan la información en posiciones pseudo-aleatorias, así que el acceso ordenado a su contenido es bastante lento. Otras estructuras como árboles binarios auto-balanceables son más rápidos en promedio (tiempo de búsqueda O(log n)) pero la información está ordenada en todo momento.
-Las operaciones básicas implementadas en las tablas hash son:
-inserción(llave, valor)
-búsqueda(llave) que devuelve valor
-La mayoría de las implementaciones también incluyen borrar(llave). También se pueden ofrecer funciones como iteración en la tabla, crecimiento y vaciado. Algunas tablas hash permiten almacenar múltiples valores bajo la misma clave.
+Una tabla hash, mapa hash o tabla de dispersion es una estructura de datos que asocia llaves o claves con valores. La operacion principal que soporta de manera eficiente es la busqueda: permite el acceso a los elementos (telefono y direccion, por ejemplo) almacenados a partir de una clave generada (usando el nombre o numero de cuenta, por ejemplo). Funciona transformando la clave con una funcion hash en un hash, un numero que identifica la posicion (casilla o cubeta) donde la tabla hash localiza el valor deseado.
+Las tablas hash se suelen implementar sobre vectores de una dimension, aunque se pueden hacer implementaciones multi-dimensionales basadas en varias claves. Como en el caso de los arrays, las tablas hash proveen tiempo constante de busqueda promedio O(1),1 sin importar el numero de elementos en la tabla. Sin embargo, en casos particularmente malos el tiempo de busqueda puede llegar a O(n), es decir, en funcion del numero de elementos.
+Comparada con otras estructuras de arrays asociadas, las tablas hash son mas utiles cuando se almacenan grandes cantidades de informacion.
+Las tablas hash almacenan la informacion en posiciones pseudo-aleatorias, asi que el acceso ordenado a su contenido es bastante lento. Otras estructuras como arboles binarios auto-balanceables son mas rapidos en promedio (tiempo de busqueda O(log n)) pero la informacion esta ordenada en todo momento.
+Las operaciones basicas implementadas en las tablas hash son:
+insercion(llave, valor)
+busqueda(llave) que devuelve valor
+La mayoria de las implementaciones tambien incluyen borrar(llave). Tambien se pueden ofrecer funciones como iteracion en la tabla, crecimiento y vaciado. Algunas tablas hash permiten almacenar multiples valores bajo la misma clave.
 Para usar una tabla hash se necesita:
 Una estructura de acceso directo (normalmente un array).
 Una estructura de datos con una clave
-Una función resumen (hash) cuyo dominio sea el espacio de claves y su imagen (o rango) los números naturales.
+Una funcion resumen (hash) cuyo dominio sea el espacio de claves y su imagen (o rango) los numeros naturales.

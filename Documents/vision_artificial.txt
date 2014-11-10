@@ -1,10 +1,10 @@
-La visión artificial, también conocida como visión por computador (del inglés computer vision) o visión técnica, es un subcampo de la inteligencia artificial. El propósito de la visión artificial es programar un computador para que "entienda" una escena o las características de una imagen.
-Los objetivos típicos de la visión artificial incluyen:
-La detección, segmentación, localización y reconocimiento de ciertos objetos en imágenes (por ejemplo, caras humanas).
-La evaluación de los resultados (por ejemplo, segmentación, registro).
-Registro de diferentes imágenes de una misma escena u objeto, es decir, hacer concordar un mismo objeto en diversas imágenes.
-Seguimiento de un objeto en una secuencia de imágenes.
-Mapeo de una escena para generar un modelo tridimensional de la escena; este modelo podría ser usado por un robot para navegar por la escena.
-Estimación de las posturas tridimensionales de humanos.
-Búsqueda de imágenes digitales por su contenido.
-Estos objetivos se consiguen por medio de reconocimiento de patrones, aprendizaje estadístico, geometría de proyección, procesamiento de imágenes, teoría de grafos y otros campos. La visión artificial cognitiva está muy relacionada con la psicología cognitiva y la computación biológica.
+La vision artificial, tambien conocida como vision por computador (del ingles computer vision) o vision tecnica, es un subcampo de la inteligencia artificial. El proposito de la vision artificial es programar un computador para que "entienda" una escena o las caracteristicas de una imagen.
+Los objetivos tipicos de la vision artificial incluyen:
+La deteccion, segmentacion, localizacion y reconocimiento de ciertos objetos en imagenes (por ejemplo, caras humanas).
+La evaluacion de los resultados (por ejemplo, segmentacion, registro).
+Registro de diferentes imagenes de una misma escena u objeto, es decir, hacer concordar un mismo objeto en diversas imagenes.
+Seguimiento de un objeto en una secuencia de imagenes.
+Mapeo de una escena para generar un modelo tridimensional de la escena; este modelo podria ser usado por un robot para navegar por la escena.
+Estimacion de las posturas tridimensionales de humanos.
+Busqueda de imagenes digitales por su contenido.
+Estos objetivos se consiguen por medio de reconocimiento de patrones, aprendizaje estadistico, geometria de proyeccion, procesamiento de imagenes, teoria de grafos y otros campos. La vision artificial cognitiva esta muy relacionada con la psicologia cognitiva y la computacion biologica.

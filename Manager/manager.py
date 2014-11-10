@@ -5,10 +5,11 @@ Created on 09/11/2014
 '''
 
 import glob
-import numpy as np
-import sys
-import errno
-souce_dir = "prueba/*.txt"
+from Configuration.settings import documents
+
+#souce_dir = "prueba/*.txt"
+
+
 
 class SRI_Manager(object):
     
@@ -17,7 +18,7 @@ class SRI_Manager(object):
     
     def load_corpus(self):
         corpus = []
-        files = glob.glob(souce_dir)           
+        files = glob.glob(documents)           
         for name in files:
             f = open(name , 'r')
             words = ""
@@ -55,3 +56,5 @@ if __name__ == '__main__':
     corpus = manager.load_corpus()
     for i in corpus:
         print i
+    
+    print len(corpus)

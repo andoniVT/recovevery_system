@@ -1,6 +1,6 @@
-Los Montículos binarios (binary heaps en inglés) son un caso particular y sencillo de la estructura de datos Montículo, y está basada en un árbol binario balanceado, que puede verse como un árbol binario con dos restricciones adicionales:
-Propiedad de montículo
-Cada nodo contiene un valor superior al de sus hijos (para un montículo por máximos) o más pequeño que el de sus hijos (para un montículo por mínimos).
-Árbol semicompleto
-El árbol está balanceado y en un mismo nivel las inserciones se realizan de izquierda a derecha.
-Los montículos por máximos se utilizan frecuentemente para representar colas de prioridad. A continuación se muestran dos montículos uno por mínimos y otro por máximos que representan el mismo conjunto de valores.
+Los Monticulos binarios (binary heaps en ingles) son un caso particular y sencillo de la estructura de datos Monticulo, y esta basada en un arbol binario balanceado, que puede verse como un arbol binario con dos restricciones adicionales:
+Propiedad de monticulo
+Cada nodo contiene un valor superior al de sus hijos (para un monticulo por maximos) o mas pequeno que el de sus hijos (para un monticulo por minimos).
+Arbol semicompleto
+El arbol esta balanceado y en un mismo nivel las inserciones se realizan de izquierda a derecha.
+Los monticulos por maximos se utilizan frecuentemente para representar colas de prioridad. A continuacion se muestran dos monticulos uno por minimos y otro por maximos que representan el mismo conjunto de valores.

@@ -1,8 +1,8 @@
-Este modelo, bastante reciente, y propio de los modelos informáticos orientados a objetos, trata de almacenar en la base de datos los objetos completos (estado y comportamiento).
+Este modelo, bastante reciente, y propio de los modelos informaticos orientados a objetos, trata de almacenar en la base de datos los objetos completos (estado y comportamiento).
 Una base de datos orientada a objetos es una base de datos que incorpora todos los conceptos importantes del paradigma de objetos:
-Encapsulación - Propiedad que permite ocultar la información al resto de los objetos, impidiendo así accesos incorrectos o conflictos.
-Herencia - Propiedad a través de la cual los objetos heredan comportamiento dentro de una jerarquía de clases.
-Polimorfismo - Propiedad de una operación mediante la cual puede ser aplicada a distintos tipos de objetos.
-En bases de datos orientadas a objetos, los usuarios pueden definir operaciones sobre los datos como parte de la definición de la base de datos. Una operación (llamada función) se especifica en dos partes. La interfaz (o signatura) de una operación incluye el nombre de la operación y los tipos de datos de sus argumentos (o parámetros). La implementación (o método) de la operación se especifica separadamente y puede modificarse sin afectar la interfaz. Los programas de aplicación de los usuarios pueden operar sobre los datos invocando a dichas operaciones a través de sus nombres y argumentos, sea cual sea la forma en la que se han implementado. Esto podría denominarse independencia entre programas y operaciones.
-SQL:2003, es el estándar de SQL92 ampliado, soporta los conceptos orientados a objetos y mantiene la compatibilidad con SQL92.
+Encapsulacion - Propiedad que permite ocultar la informacion al resto de los objetos, impidiendo asi accesos incorrectos o conflictos.
+Herencia - Propiedad a traves de la cual los objetos heredan comportamiento dentro de una jerarquia de clases.
+Polimorfismo - Propiedad de una operacion mediante la cual puede ser aplicada a distintos tipos de objetos.
+En bases de datos orientadas a objetos, los usuarios pueden definir operaciones sobre los datos como parte de la definicion de la base de datos. Una operacion (llamada funcion) se especifica en dos partes. La interfaz (o signatura) de una operacion incluye el nombre de la operacion y los tipos de datos de sus argumentos (o parametros). La implementacion (o metodo) de la operacion se especifica separadamente y puede modificarse sin afectar la interfaz. Los programas de aplicacion de los usuarios pueden operar sobre los datos invocando a dichas operaciones a traves de sus nombres y argumentos, sea cual sea la forma en la que se han implementado. Esto podria denominarse independencia entre programas y operaciones.
+SQL:2003, es el estandar de SQL92 ampliado, soporta los conceptos orientados a objetos y mantiene la compatibilidad con SQL92.
 

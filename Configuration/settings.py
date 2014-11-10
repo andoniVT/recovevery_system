@@ -13,3 +13,7 @@ path = path_home
 
 ''' resource '''
 stop_words = path + '/Resource/stopwords_spanish.txt'
+
+
+#souce_dir = "prueba/*.txt"
+documents = path + '/Documents/*.txt'
