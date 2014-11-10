@@ -4,11 +4,30 @@ Created on 09/11/2014
 @author: andoni
 '''
 
+import glob
+import numpy as np
+import sys
+import errno
+souce_dir = "prueba/*.txt"
+
 class SRI_Manager(object):
     
     def __init__(self):
         pass
     
+    def load_corpus(self):
+        corpus = []
+        files = glob.glob(souce_dir)           
+        for name in files:
+            f = open(name , 'r')
+            words = ""
+            for line in f.readlines():
+                line = line.rstrip('\n')
+                words = words + line + " "
+            corpus.append(words)  
+            f.close()
+        return corpus
+                                
     def organize_documents(self):
         pass
         '''
@@ -32,4 +51,7 @@ class SRI_Manager(object):
     
 if __name__ == '__main__':
     
-    pass
+    manager = SRI_Manager()
+    corpus = manager.load_corpus()
+    for i in corpus:
+        print i
