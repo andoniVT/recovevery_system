@@ -1,6 +1,6 @@
-En ciencia de la computacion, un arbol-B es un tipo de estructura de datos de arboles. Representa una coleccion de datos ordenados de manera que se permite una insercion y borrado eficientes de elementos. Es un indice, multinivel, dinamico, con un limite maximo y minimo en el numero de claves por nodo.
-Un arbol-B+ es una variacion de un arbol-B. En un arbol-B+, en contraste respecto un arbol-B, toda la informacion se guarda en las hojas. Los nodos internos solo contienen claves y punteros. Todas las hojas se encuentran en el mismo, mas bajo nivel. Los nodos hoja se encuentran unidos entre si como una lista enlazada para permitir busqueda secuencial.
-El numero maximo de claves en un registro es llamado el orden del arbol-B+.
-El minimo numero de claves por registro es la mitad del maximo numero de claves. Por ejemplo, si el orden de un arbol-B+ es n, cada nodo (exceptuando la raiz) debe tener entre n/2 y n claves.
-El numero de claves que pueden ser indexadas usando un arbol-B+ esta en funcion del orden del arbol y su altura.
+En ciencia de la computacion, un arbol B es un tipo de estructura de datos de arboles. Representa una coleccion de datos ordenados de manera que se permite una insercion y borrado eficientes de elementos. Es un indice, multinivel, dinamico, con un limite maximo y minimo en el numero de claves por nodo.
+Un arbol B+ es una variacion de un arbol B. En un arbol B+, en contraste respecto un arbol B, toda la informacion se guarda en las hojas. Los nodos internos solo contienen claves y punteros. Todas las hojas se encuentran en el mismo, mas bajo nivel. Los nodos hoja se encuentran unidos entre si como una lista enlazada para permitir busqueda secuencial.
+El numero maximo de claves en un registro es llamado el orden del arbol B+.
+El minimo numero de claves por registro es la mitad del maximo numero de claves. Por ejemplo, si el orden de un arbol B+ es n, cada nodo (exceptuando la raiz) debe tener entre n/2 y n claves.
+El numero de claves que pueden ser indexadas usando un arbol B+ esta en funcion del orden del arbol y su altura.
 

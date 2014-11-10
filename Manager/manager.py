@@ -1,20 +1,26 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 '''
 Created on 09/11/2014
 
 @author: andoni
 '''
 
+import sys  
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
+
 import glob
 from Configuration.settings import documents
-
-#souce_dir = "prueba/*.txt"
-
-
+from Preprocesser.preprocessDocument import PreProcessor as PP
 
 class SRI_Manager(object):
     
     def __init__(self):
-        pass
+        self.__corpus = []
+        self.__preprocessed_corus = []
+        self.__matrix_model = []
     
     def load_corpus(self):
         corpus = []
@@ -27,8 +33,18 @@ class SRI_Manager(object):
                 words = words + line + " "
             corpus.append(words)  
             f.close()
+        self.__corpus = corpus
         return corpus
-                                
+    
+    def pre_process_corpus(self):
+        corpus = self.load_corpus()
+        processed_corpus = []
+        for i in corpus:
+            procesor = PP(i)
+            proccesed = procesor.get_processed_document()
+            processed_corpus.append(proccesed)
+        return processed_corpus
+                                             
     def organize_documents(self):
         pass
         '''
@@ -51,10 +67,14 @@ class SRI_Manager(object):
 
     
 if __name__ == '__main__':
-    
+   
     manager = SRI_Manager()
-    corpus = manager.load_corpus()
-    for i in corpus:
+    documentos = manager.pre_process_corpus()
+    for i in documentos:
         print i
+   
+   
     
-    print len(corpus)
+    
+    
+    

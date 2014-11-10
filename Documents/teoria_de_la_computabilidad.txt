@@ -1,12 +1,12 @@
 La Teoria de la computabilidad es la parte de la computacion que estudia los problemas de decision que pueden ser resueltos con un algoritmo o equivalentemente con una maquina de Turing. La teoria de la computabilidad se interesa a cuatro preguntas:
-¿Que problemas puede resolver una maquina de Turing?
-¿Que otros formalismos equivalen a las maquinas de Turing?
-¿Que problemas requieren maquinas mas poderosas?
-¿Que problemas requieren maquinas menos poderosas?
+Que problemas puede resolver una maquina de Turing?
+Que otros formalismos equivalen a las maquinas de Turing?
+Que problemas requieren maquinas mas poderosas?
+Que problemas requieren maquinas menos poderosas?
 La teoria de la complejidad computacional clasifica las funciones computables segun el uso que hacen de diversos recursos en diversos tipos de maquina.
-¿Que problemas puede resolver una maquina de Turing?
+Que problemas puede resolver una maquina de Turing?
 No todos los problemas pueden ser resueltos. Un problema indecidible es uno que no puede ser resuelto con un algoritmo aun si se dispone de espacio y tiempo ilimitado. Actualmente se conocen muchos problemas indecidibles, como por ejemplo:
-El Entscheidungsproblem (problema de decision en aleman) que se define como: Dada una frase del calculo de predicados de primer orden, decidir si ella es un teorema. Church y Turing demostraron independientemente que este problema es indecidible (ver Tesis de Church-Turing).
+El Entscheidungsproblem (problema de decision en aleman) que se define como: Dada una frase del calculo de predicados de primer orden, decidir si ella es un teorema. Church y Turing demostraron independientemente que este problema es indecidible (ver Tesis de Church Turing).
 El Problema de la parada, que se define asi: Dado un programa y su entrada, decidir si ese programa terminara para esa entrada o si correra indefinidamente. Turing demostro que se trata de un problema indecidible.
 Un numero computable es un numero real que puede ser aproximado por un algoritmo con un nivel de exactitud arbitrario. Turing demostro que casi todos los numeros no son computables. Por ejemplo, la Constante de Chaitin no es computable aunque si que esta bien definido.
 

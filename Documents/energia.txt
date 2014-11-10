@@ -1,2 +1,2 @@
 El termino energia (del griego energeia, actividad, operacion; energos  fuerza de accion o fuerza trabajando) tiene diversas acepciones y definiciones, relacionadas con la idea de una capacidad para obrar, transformar o poner en movimiento.
-En fisica, «energia» se define como la capacidad para realizar un trabajo. En tecnologia y economia, «energia» se refiere a un recurso natural (incluyendo a su tecnologia asociada) para extraerla, transformarla y darle un uso industrial o economico.
+En fisica, energia se define como la capacidad para realizar un trabajo. En tecnologia y economia, energia se refiere a un recurso natural (incluyendo a su tecnologia asociada) para extraerla, transformarla y darle un uso industrial o economico.

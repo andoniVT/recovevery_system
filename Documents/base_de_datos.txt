@@ -5,5 +5,5 @@ Aunque las bases de datos pueden contener muchos tipos de datos, algunos de ello
 Gestion de bases de datos distribuida (SGBD)
 La base de datos y el software SGBD pueden estar distribuidos en multiples sitios conectados por una red. Hay de dos tipos:
 1. Distribuidos homogeneos: utilizan el mismo SGBD en multiples sitios.
-2. Distribuidos heterogeneos: Da lugar a los SGBD federados o sistemas multibase de datos en los que los SGBD participantes tienen cierto grado de autonomia local y tienen acceso a varias bases de datos autonomas preexistentes almacenados en los SGBD, muchos de estos emplean una arquitectura cliente-servidor.
+2. Distribuidos heterogeneos: Da lugar a los SGBD federados o sistemas multibase de datos en los que los SGBD participantes tienen cierto grado de autonomia local y tienen acceso a varias bases de datos autonomas preexistentes almacenados en los SGBD, muchos de estos emplean una arquitectura cliente servidor.
 Estas surgen debido a la existencia fisica de organismos descentralizados. Esto les da la capacidad de unir las bases de datos de cada localidad y acceder asi a distintas universidades, sucursales de tiendas, etcetera.

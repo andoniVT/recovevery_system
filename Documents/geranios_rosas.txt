@@ -1,16 +1,16 @@
-¡Entre los geranios rosas,
+Entre los geranios rosas,
 una mariposa blanca!
 Asi me grito la nina,
 la de las trenzas doradas:
--corre a verla, corre a verla,
+ corre a verla, corre a verla,
 que se te escapa.
 Por los caminos regados
 del oro nuevo del alba,
 corri a los geranios rosas,
-¡y ya no estaba!
+y ya no estaba!
 Volvi entonces a la nina,
 la de las trenzas doradas.
-«No estaba ya», iba a decirle.
+No estaba ya, iba a decirle.
 pero ella tampoco estaba.
 A lo lejos, ya muy lejos,
 se oian sus carcajadas.
@@ -24,7 +24,7 @@ Y esto fue mi vida toda:
 una voz que engano el alma,
 un correr inutilmente,
 una inutil esperanza…
-¡Entre los geranios rosas,
+Entre los geranios rosas,
 una mariposa blanca!
 geranios_rosas.txt
 
