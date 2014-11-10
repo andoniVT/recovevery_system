@@ -63,14 +63,23 @@ class SRI_Manager(object):
         
         with open(matrix_model , 'wb') as fid:
             cPickle.dump(matrix , fid)
-        
-                
         '''
           * cargar todos los txts ---
           * pre procesarlos    ----
           * convertirlos a booleanos
           * guardar los vectores en un binario
-        '''
+        '''            
+    
+    def load_document_information(self , type):
+        if type==1:
+            file = name_simple_corpus
+        if type==2: 
+            file = name_processed_corpus
+        if type==3:
+            file = matrix_model                                 
+        with open(file , 'rb') as fid:
+                clf_load = cPickle.load(fid)                            
+        return clf_load                        
     
     def make_query(self , query , relevants):
         pass
@@ -87,10 +96,12 @@ class SRI_Manager(object):
 if __name__ == '__main__':
    
     manager = SRI_Manager()
-    manager.organize_documents()
-    #documentos = manager.pre_process_corpus()
-    #for i in documentos:
-     #   print i
+    data = manager.load_document_information(3)
+    for i in data:
+        print i 
+    
+    #manager.organize_documents()
+    
    
    
     
