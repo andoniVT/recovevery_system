@@ -12,7 +12,7 @@ sys.setdefaultencoding('utf8')
 
 
 import glob
-from Configuration.settings import documents , name_simple_corpus , name_processed_corpus , matrix_model
+from Configuration.settings import documents , name_simple_corpus , name_processed_corpus , matrix_model , document_titles
 from Preprocesser.preprocessDocument import PreProcessor as PP
 from VectorModel.model import BooleanModel as BM
 import cPickle
@@ -20,27 +20,47 @@ import cPickle
 class SRI_Manager(object):
     
     def __init__(self):
+        self.__titles = []
         self.__corpus = []
         self.__preprocessed_corpus = []
-        self.__matrix_model = []
+        self.__matrix_model = []            
+    
+    def get_title_name(self , file):
+        i = len(file)-1
+        fin = i 
+        while file[i] != '/':
+            i-=1        
+        ini = i+1
+        fin-=3
+        word = ''
+        for k in range(ini , fin):
+            word = word + file[k]
+        word = word.replace('_', ' ')
+        return word  
+    
     
     def load_corpus(self):
         corpus = []
+        titles = []
         files = glob.glob(documents)           
         for name in files:
+            value = (name , self.get_title_name(name))
+            titles.append(value)
             f = open(name , 'r')
             words = ""
             for line in f.readlines():
                 line = line.rstrip('\n')
                 words = words + line + " "
             corpus.append(words)  
-            f.close()
-        #self.__corpus = corpus
+            f.close() 
+        
+        with open(document_titles , 'wb') as fid:
+            cPickle.dump(titles , fid)
         
         with open(name_simple_corpus , 'wb') as fid:
             cPickle.dump(corpus , fid)
         return corpus
-    
+        
     def pre_process_corpus(self):
         corpus = self.load_corpus()
         processed_corpus = []
@@ -94,17 +114,19 @@ class SRI_Manager(object):
 
     
 if __name__ == '__main__':
-   
+    prueba = 'prueba/*.txt'
+    
+    
+    manager = SRI_Manager()
+       
+    
+    
+    '''
     manager = SRI_Manager()
     data = manager.load_document_information(3)
     for i in data:
         print i 
-    
+    '''
     #manager.organize_documents()
-    
-   
-   
-    
-    
     
     
