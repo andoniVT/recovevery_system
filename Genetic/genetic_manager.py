@@ -20,3 +20,20 @@ funcion de evaluacion  :
 
 '''
 
+'''
+  
+  cromosoma = query
+  
+  cromosoma = [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+  
+  generar_poblacion 
+  
+  
+  
+
+
+'''
+
+
+
+
