@@ -49,6 +49,10 @@ class BooleanModel(object):
             val+=1
             matrix.append(vector)
         return matrix
+    
+    def get_the_vocabulary(self):
+        return self.__vocabulary
+
                                                                      
 if __name__ == '__main__':
     

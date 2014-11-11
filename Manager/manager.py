@@ -12,7 +12,7 @@ sys.setdefaultencoding('utf8')
 
 
 import glob
-from Configuration.settings import documents , name_simple_corpus , name_processed_corpus , matrix_model , document_titles
+from Configuration.settings import documents , name_simple_corpus , name_processed_corpus , matrix_model , document_titles , vocabulary
 from Preprocesser.preprocessDocument import PreProcessor as PP
 from VectorModel.model import BooleanModel as BM
 import cPickle
@@ -78,8 +78,8 @@ class SRI_Manager(object):
         
         model = BM(documents)
         matrix = model.generate_matrix_model()
-        for i in matrix:
-            print i
+        
+         
         
         with open(matrix_model , 'wb') as fid:
             cPickle.dump(matrix , fid)
@@ -91,18 +91,26 @@ class SRI_Manager(object):
         '''            
     
     def load_document_information(self , type):
+        if type == 0:
+            file = document_titles 
         if type==1:
             file = name_simple_corpus
         if type==2: 
             file = name_processed_corpus
         if type==3:
-            file = matrix_model                                 
+            file = matrix_model
+        
+        if type==4:
+            file = vocabulary                                 
         with open(file , 'rb') as fid:
                 clf_load = cPickle.load(fid)                            
         return clf_load                        
     
-    def make_query(self , query , relevants):
-        pass
+    def make_query(self , query , relevants=""):
+        
+        processed = PP(query)
+        print processed.get_processed_document()
+        
         '''
           * preprocesar el query
           * convertir a booleano
@@ -117,8 +125,10 @@ if __name__ == '__main__':
     prueba = 'prueba/*.txt'
     
     
+    query = "ciencia de la computacion"
     manager = SRI_Manager()
-       
+    manager.make_query(query)
+    
     
     
     '''
