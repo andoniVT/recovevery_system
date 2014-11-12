@@ -1,1610 +1,1610 @@
 (lp1
-(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/crazy.txt'
+(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/historia_de_una_madre.txt'
 p2
-S'crazy'
-tp3
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tia_dolor_de_muelas.txt'
-p4
-S'tia dolor de muelas'
-tp5
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bioma.txt'
-p6
-S'bioma'
-tp7
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_rojo_negro.txt'
-p8
-S'arbol rojo negro'
-tp9
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/flora.txt'
-p10
-S'flora'
-tp11
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cultura_nazca.txt'
-p12
-S'cultura nazca'
-tp13
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_elfo_del_rosal.txt'
-p14
-S'el elfo del rosal'
-tp15
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pesca.txt'
-p16
-S'pesca'
-tp17
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_b+.txt'
-p18
-S'arbol b+'
-tp19
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/alicia_caerina.txt'
-p20
-S'alicia caerina'
-tp21
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_oveja_negra.txt'
-p22
-S'la oveja negra'
-tp23
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pulgarcita.txt'
-p24
-S'pulgarcita'
-tp25
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos_orientadas_a_objetos.txt'
-p26
-S'base de datos orientadas a objetos'
-tp27
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_ultima_perla.txt'
-p28
-S'la ultima perla'
-tp29
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/una_historia.txt'
-p30
-S'una historia'
-tp31
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/galletitas.txt'
-p32
-S'galletitas'
-tp33
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_angel.txt'
-p34
-S'el angel'
-tp35
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bio_informatica.txt'
-p36
-S'bio informatica'
-tp37
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_princesa_y_el_frejol.txt'
-p38
-S'la princesa y el frejol'
-tp39
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/frank_ribery.txt'
-p40
-S'frank ribery'
-tp41
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/wayne_rooney.txt'
-p42
-S'wayne rooney'
-tp43
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/andriy_shevchenko.txt'
-p44
-S'andriy shevchenko'
-tp45
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/habitat.txt'
-p46
-S'habitat'
-tp47
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_rosa_mas_bella_del_mundo.txt'
-p48
-S'la rosa mas bella del mundo'
-tp49
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_iliada.txt'
-p50
-S'la iliada'
-tp51
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_libro_mudo.txt'
-p52
-S'el libro mudo'
-tp53
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sabana.txt'
-p54
-S'sabana'
-tp55
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_cisnes_salvajes.txt'
-p56
-S'los cisnes salvajes'
-tp57
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/electronegatividad.txt'
-p58
-S'electronegatividad'
-tp59
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/marte.txt'
-p60
-S'marte'
-tp61
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/hernan_crespo.txt'
-p62
-S'hernan crespo'
-tp63
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/humedad.txt'
-p64
-S'humedad'
-tp65
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/temperatura.txt'
-p66
-S'temperatura'
-tp67
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ecologia.txt'
-p68
-S'ecologia'
-tp69
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/decisiones.txt'
-p70
-S'decisiones'
-tp71
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/patito_feo.txt'
-p72
-S'patito feo'
-tp73
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_gran_serpiente_del_mar.txt'
-p74
-S'la gran serpiente del mar'
-tp75
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fin_de_invierno.txt'
-p76
-S'fin de invierno'
-tp77
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_caracol_y_el_rosal.txt'
-p78
-S'el caracol y el rosal'
-tp79
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/altiplano.txt'
-p80
-S'altiplano'
-tp81
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_aguja_de_zurcir.txt'
-p82
-S'la aguja de zurcir'
-tp83
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_porquerizo.txt'
-p84
-S'el porquerizo'
-tp85
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/diego_armando_maradona.txt'
-p86
-S'diego armando maradona'
-tp87
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/playa.txt'
-p88
-S'playa'
-tp89
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_patito_feo.txt'
-p90
-S'el patito feo'
-tp91
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mercurio.txt'
-p92
-S'mercurio'
-tp93
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/romance_del_conde_olinos.txt'
-p94
-S'romance del conde olinos'
-tp95
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ruisenor_rosa.txt'
-p96
-S'ruisenor rosa'
-tp97
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/relieve.txt'
-p98
-S'relieve'
-tp99
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/parque_nacional_cabaneros.txt'
-p100
-S'parque nacional cabaneros'
-tp101
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pepe.txt'
-p102
-S'pepe'
-tp103
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/programacion.txt'
-p104
-S'programacion'
-tp105
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/golfo.txt'
-p106
-S'golfo'
-tp107
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/agriculturaa.txt'
-p108
-S'agriculturaa'
-tp109
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bosque.txt'
-p110
-S'bosque'
-tp111
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_microbios.txt'
-p112
-S'los microbios'
-tp113
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_binario_de_busqueda.txt'
-p114
-S'arbol binario de busqueda'
-tp115
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_pacto_de_amistad.txt'
-p116
-S'el pacto de amistad'
-tp117
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cometa.txt'
-p118
-S'cometa'
-tp119
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos.txt'
-p120
-S'base de datos'
-tp121
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/magnetosfera.txt'
-p122
-S'magnetosfera'
-tp123
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/monticulo_suave.txt'
-p124
-S'monticulo suave'
-tp125
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_gollete_de_botella.txt'
-p126
-S'el gollete de botella'
-tp127
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/planeta.txt'
-p128
-S'planeta'
-tp129
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tres_cerditos.txt'
-p130
-S'tres cerditos'
-tp131
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fabio_coentrao.txt'
-p132
-S'fabio coentrao'
-tp133
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/energia_quimica.txt'
-p134
-S'energia quimica'
-tp135
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/espirirtu_santo.txt'
-p136
-S'espirirtu santo'
-tp137
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/flash3.txt'
-p138
-S'flash3'
-tp139
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/rio_ferdinand.txt'
-p140
-S'rio ferdinand'
-tp141
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/glaciar.txt'
-p142
-S'glaciar'
-tp143
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_vecinos.txt'
-p144
-S'los vecinos'
-tp145
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lazarillo_de_tormes.txt'
-p146
-S'lazarillo de tormes'
-tp147
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/una_hoja_del_cielo.txt'
-p148
-S'una hoja del cielo'
-tp149
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/estructuras_de_datos.txt'
-p150
-S'estructuras de datos'
-tp151
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/peste_negra.txt'
-p152
-S'peste negra'
-tp153
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/biologia.txt'
-p154
-S'biologia'
-tp155
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/barcos_de_papel.txt'
-p156
-S'barcos de papel'
-tp157
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/metodologia_lectora.txt'
-p158
-S'metodologia lectora'
-tp159
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/litosfera.txt'
-p160
-S'litosfera'
-tp161
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/biocenosis.txt'
-p162
-S'biocenosis'
-tp163
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/masa.txt'
-p164
-S'masa'
-tp165
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/espiritu_santo.txt'
-p166
-S'espiritu santo'
-tp167
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/poema_20.txt'
-p168
-S'poema 20'
-tp169
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_desafio_del_espacio.txt'
-p170
-S'el desafio del espacio'
-tp171
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_piedra_filosofal.txt'
-p172
-S'la piedra filosofal'
-tp173
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_casa_vieja.txt'
-p174
-S'la casa vieja'
-tp175
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/viajes_y_descubrimientos_geograficos.txt'
-p176
-S'viajes y descubrimientos geograficos'
-tp177
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bajo_el_sauce.txt'
-p178
-S'bajo el sauce'
-tp179
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/por_que_empezamos_a_contar.txt'
-p180
-S'por que empezamos a contar'
-tp181
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_abeto.txt'
-p182
-S'el abeto'
-tp183
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sopa_de_palillo_de_morcilla.txt'
-p184
-S'sopa de palillo de morcilla'
-tp185
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_paz.txt'
-p186
-S'la paz'
-tp187
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_campana.txt'
-p188
-S'la campana'
-tp189
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/manchester_united.txt'
-p190
-S'manchester united'
-tp191
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/madrigal_de_blanca_nieve.txt'
-p192
-S'madrigal de blanca nieve'
-tp193
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_nina_judia.txt'
-p194
-S'la nina judia'
-tp195
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/chanclos_de_la_suerte.txt'
-p196
-S'chanclos de la suerte'
-tp197
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/division_del_dia.txt'
-p198
-S'division del dia'
-tp199
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/inicio_de_la_agricultura_y_ganaderia.txt'
-p200
-S'inicio de la agricultura y ganaderia'
-tp201
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/vida_silvestre.txt'
-p202
-S'vida silvestre'
-tp203
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/heavy_metal.txt'
-p204
-S'heavy metal'
-tp205
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mis_deseos.txt'
-p206
-S'mis deseos'
-tp207
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/electron.txt'
-p208
-S'electron'
-tp209
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ac_milan.txt'
-p210
-S'ac milan'
-tp211
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/meteorologia.txt'
-p212
-S'meteorologia'
-tp213
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/juventus.txt'
-p214
-S'juventus'
-tp215
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/caperucita_roja.txt'
-p216
-S'caperucita roja'
-tp217
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_cerro_de_los_elfos.txt'
-p218
-S'el cerro de los elfos'
-tp219
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jabali_de_bronce.txt'
-p220
-S'jabali de bronce'
-tp221
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/yo_puedo_cambiar_el_mundo.txt'
-p222
-S'yo puedo cambiar el mundo'
-tp223
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sami_khedira.txt'
-p224
-S'sami khedira'
-tp225
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/particula_subatomica.txt'
-p226
-S'particula subatomica'
-tp227
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/todos_archivos.txt'
-p228
-S'todos archivos'
-tp229
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/parma.txt'
-p230
-S'parma'
-tp231
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/software.txt'
-p232
-S'software'
-tp233
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/futbol.txt'
-p234
-S'futbol'
-tp235
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/zlatan_ibrahimovic.txt'
-p236
-S'zlatan ibrahimovic'
-tp237
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/aerosmith.txt'
-p238
-S'aerosmith'
-tp239
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/principios_de_la_ciencia.txt'
-p240
-S'principios de la ciencia'
-tp241
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sol.txt'
-p242
-S'sol'
-tp243
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/historia_de_dos_ciudades.txt'
-p244
-S'historia de dos ciudades'
-tp245
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/aprendizaje_automatico.txt'
-p246
-S'aprendizaje automatico'
-tp247
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ensenaras.txt'
-p248
-S'ensenaras'
-tp249
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/soldadito_de_plomo.txt'
-p250
-S'soldadito de plomo'
-tp251
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/viento.txt'
-p252
-S'viento'
-tp253
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_de_la_ciencia.txt'
-p254
-S'arbol de la ciencia'
-tp255
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_vestidos_nuevos_del_emperador.txt'
-p256
-S'los vestidos nuevos del emperador'
-tp257
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_gota_de_agua.txt'
-p258
-S'la gota de agua'
-tp259
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/compilador.txt'
-p260
-S'compilador'
-tp261
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_hombre_no_viene_del_mono.txt'
-p262
-S'el hombre no viene del mono'
-tp263
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_zapatos_rojos.txt'
-p264
-S'los zapatos rojos'
-tp265
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/curiosidades_animales.txt'
-p266
-S'curiosidades animales'
-tp267
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_sirenita.txt'
-p268
-S'la sirenita'
-tp269
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos_relacional.txt'
-p270
-S'base de datos relacional'
-tp271
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/teoria_de_computacion.txt'
-p272
-S'teoria de computacion'
-tp273
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ingenieria_del_software.txt'
-p274
-S'ingenieria del software'
-tp275
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/marido_o_hermano.txt'
-p276
-S'marido o hermano'
-tp277
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mariposa_del_aire.txt'
-p278
-S'mariposa del aire'
-tp279
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/colas_el_chico_y_colas_el_grande.txt'
-p280
-S'colas el chico y colas el grande'
-tp281
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_companero_de_viaje.txt'
-p282
-S'el companero de viaje'
-tp283
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_abecedario.txt'
-p284
-S'el abecedario'
-tp285
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/no_era_buena_para_nada.txt'
-p286
-S'no era buena para nada'
-tp287
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/peter_pan.txt'
-p288
-S'peter pan'
-tp289
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/vision_del_valuarte.txt'
-p290
-S'vision del valuarte'
-tp291
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jose_mourinho.txt'
-p292
-S'jose mourinho'
-tp293
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_ruisenor.txt'
-p294
-S'el ruisenor'
-tp295
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/nitrogeno.txt'
-p296
-S'nitrogeno'
-tp297
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/monticulo_binario.txt'
-p298
-S'monticulo binario'
-tp299
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/costumbres_del_leon.txt'
-p300
-S'costumbres del leon'
-tp301
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tabla_hash.txt'
-p302
-S'tabla hash'
-tp303
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/axl_rose.txt'
-p304
-S'axl rose'
-tp305
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/dizzi_reed.txt'
-p306
-S'dizzi reed'
-tp307
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/combustible.txt'
-p308
-S'combustible'
-tp309
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/complejidad_computacional.txt'
-p310
-S'complejidad computacional'
-tp311
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/eric_singer.txt'
-p312
-S'eric singer'
-tp313
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_hucha.txt'
-p314
-S'la hucha'
-tp315
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ricardo_carvalho.txt'
-p316
-S'ricardo carvalho'
-tp317
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lo_mas_increible.txt'
-p318
-S'lo mas increible'
-tp319
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cultura_huari.txt'
-p320
-S'cultura huari'
-tp321
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/emergencia_nutricional_en_el_cuerno_de_africa.txt'
-p322
-S'emergencia nutricional en el cuerno de africa'
-tp323
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lionel_messi.txt'
-p324
-S'lionel messi'
-tp325
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/david_villa.txt'
-p326
-S'david villa'
-tp327
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/desierto.txt'
-p328
-S'desierto'
-tp329
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_tigre_de_malasia.txt'
-p330
-S'el tigre de malasia'
-tp331
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/iker_casillas.txt'
-p332
-S'iker casillas'
-tp333
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_regenta.txt'
-p334
-S'la regenta'
-tp335
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/las_tres_preguntas.txt'
-p336
-S'las tres preguntas'
-tp337
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/clima.txt'
-p338
-S'clima'
-tp339
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/algo.txt'
-p340
-S'algo'
-tp341
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/liverpool.txt'
-p342
-S'liverpool'
-tp343
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/proton.txt'
-p344
-S'proton'
-tp345
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/luis_figo.txt'
-p346
-S'luis figo'
-tp347
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/venus.txt'
-p348
-S'venus'
-tp349
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mil_espejos.txt'
-p350
-S'mil espejos'
-tp351
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_viejo_farol.txt'
-p352
-S'el viejo farol'
-tp353
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cesc_fabregas.txt'
-p354
-S'cesc fabregas'
-tp355
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_cuello_de_camisa.txt'
-p356
-S'el cuello de camisa'
-tp357
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/angel_di_maria.txt'
-p358
-S'angel di maria'
-tp359
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_zorra_partera.txt'
-p360
-S'la zorra partera'
-tp361
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/gorro_de_dormir_del_solteron.txt'
-p362
-S'gorro de dormir del solteron'
-tp363
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cristiano_ronaldo.txt'
-p364
-S'cristiano ronaldo'
-tp365
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/saturno.txt'
-p366
-S'saturno'
-tp367
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/paul_stanley.txt'
-p368
-S'paul stanley'
-tp369
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/esteban_granero.txt'
-p370
-S'esteban granero'
-tp371
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_eclipse.txt'
-p372
-S'el eclipse'
-tp373
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_vieja_losa_sepulcral.txt'
-p374
-S'la vieja losa sepulcral'
-tp375
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_sangre.txt'
-p376
-S'la sangre'
-tp377
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/kiss.txt'
-p378
-S'kiss'
-tp379
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/historia_de_una_madre.txt'
-p380
 S'historia de una madre'
-tp381
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/juan_sebastian_veron.txt'
-p382
-S'juan sebastian veron'
-tp383
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/deidad.txt'
-p384
-S'deidad'
-tp385
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/marisma.txt'
-p386
-S'marisma'
-tp387
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_duende_de_la_tienda.txt'
-p388
-S'el duende de la tienda'
-tp389
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_viento_de_la_tempestad.txt'
-p390
-S'el viento de la tempestad'
-tp391
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/agua_dulce.txt'
-p392
-S'agua dulce'
-tp393
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/retrato_del_licenciado_cabra.txt'
-p394
-S'retrato del licenciado cabra'
-tp395
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/teoria_de_automatas.txt'
-p396
-S'teoria de automatas'
-tp397
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/castilla.txt'
-p398
-S'castilla'
-tp399
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/valle.txt'
-p400
-S'valle'
-tp401
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/como_se_dibuja_un_paisaje.txt'
-p402
-S'como se dibuja un paisaje'
-tp403
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/una_rosa_de_la_tumba_de_homero.txt'
-p404
-S'una rosa de la tumba de homero'
-tp405
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/decalogo_para_crecer_en_paz.txt'
-p406
-S'decalogo para crecer en paz'
-tp407
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lo_que_hace_el_padre_esta_bien_hecho.txt'
-p408
-S'lo que hace el padre esta bien hecho'
-tp409
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fauna.txt'
-p410
-S'fauna'
-tp411
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/disenados_para_la_vida.txt'
-p412
-S'disenados para la vida'
-tp413
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/las_flores_de_la_pequena_ida.txt'
-p414
-S'las flores de la pequena ida'
-tp415
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/gonzalo_higuain.txt'
-p416
-S'gonzalo higuain'
-tp417
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pantano.txt'
-p418
-S'pantano'
-tp419
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/gene_simmons.txt'
-p420
-S'gene simmons'
-tp421
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_ninio_travieso.txt'
-p422
-S'el ninio travieso'
-tp423
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/analisis_de_algoritmos.txt'
-p424
-S'analisis de algoritmos'
-tp425
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/zinedine_zidane.txt'
-p426
-S'zinedine zidane'
-tp427
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/abuelita.txt'
-p428
-S'abuelita'
-tp429
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/xabi_alonso.txt'
-p430
-S'xabi alonso'
-tp431
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/platero_y_yo.txt'
-p432
-S'platero y yo'
-tp433
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/zaragoza.txt'
-p434
-S'zaragoza'
-tp435
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/dos_pisones.txt'
-p436
-S'dos pisones'
-tp437
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos_de_red.txt'
-p438
-S'base de datos de red'
-tp439
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tierra.txt'
-p440
-S'tierra'
-tp441
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bayern_munich.txt'
-p442
-S'bayern munich'
-tp443
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/valencia.txt'
-p444
-S'valencia'
-tp445
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/computacion_paralela.txt'
-p446
-S'computacion paralela'
-tp447
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_soldadito_de_plomo.txt'
-p448
-S'el soldadito de plomo'
-tp449
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/real_madrid.txt'
-p450
-S'real madrid'
-tp451
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/energia.txt'
-p452
-S'energia'
-tp453
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos_jerarquica.txt'
-p454
-S'base de datos jerarquica'
-tp455
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_primavera_besaba.txt'
-p456
-S'la primavera besaba'
-tp457
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mineria_de_datos.txt'
-p458
-S'mineria de datos'
-tp459
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pulgarcito.txt'
-p460
-S'pulgarcito'
-tp461
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/atmosfera_terreste.txt'
-p462
-S'atmosfera terreste'
-tp463
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jamon_iberico.txt'
-p464
-S'jamon iberico'
-tp465
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/precipitacion.txt'
-p466
-S'precipitacion'
-tp467
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/marea.txt'
-p468
-S'marea'
-tp469
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cultura_moche.txt'
-p470
-S'cultura moche'
-tp471
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/steven_tyler.txt'
-p472
-S'steven tyler'
-tp473
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cisnes_salvajes.txt'
-p474
-S'cisnes salvajes'
-tp475
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/viejecitos_de_la_cueva.txt'
-p476
-S'viejecitos de la cueva'
-tp477
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/andres_iniesta.txt'
-p478
-S'andres iniesta'
-tp479
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/computacion_grafica.txt'
-p480
-S'computacion grafica'
-tp481
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_pastora_y_el_deshollinador.txt'
-p482
-S'la pastora y el deshollinador'
-tp483
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/redes_de_computadoras.txt'
-p484
-S'redes de computadoras'
-tp485
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/origen_del_chocolate.txt'
-p486
-S'origen del chocolate'
-tp487
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/viento_solar.txt'
-p488
-S'viento solar'
-tp489
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/amor_preposicional.txt'
-p490
-S'amor preposicional'
-tp491
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_zapato_fugitivo.txt'
-p492
-S'el zapato fugitivo'
-tp493
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ecosistema.txt'
-p494
-S'ecosistema'
-tp495
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/parque_arqueologico.txt'
-p496
-S'parque arqueologico'
-tp497
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/si.txt'
-p498
-S'si'
-tp499
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/quechua.txt'
-p500
-S'quechua'
-tp501
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ingenieria_informatica.txt'
-p502
-S'ingenieria informatica'
-tp503
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/neptuno.txt'
-p504
-S'neptuno'
-tp505
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/princesa_del_guisante.txt'
-p506
-S'princesa del guisante'
-tp507
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_espinosa_senda_del_honor.txt'
-p508
-S'la espinosa senda del honor'
-tp509
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/criptografia.txt'
-p510
-S'criptografia'
-tp511
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/canion.txt'
-p512
-S'canion'
-tp513
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/matriz.txt'
-p514
-S'matriz'
-tp515
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/campeones_de_salto.txt'
-p516
-S'campeones de salto'
-tp517
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_plancton.txt'
-p518
-S'el plancton'
-tp519
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/firma_digital.txt'
-p520
-S'firma digital'
-tp521
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bambi.txt'
-p522
-S'bambi'
-tp523
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/vision_artificial.txt'
-p524
-S'vision artificial'
-tp525
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_soledad.txt'
-p526
-S'la soledad'
-tp527
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/estrella.txt'
-p528
-S'estrella'
-tp529
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/no_te_detengas.txt'
-p530
-S'no te detengas'
-tp531
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lazio.txt'
-p532
-S'lazio'
-tp533
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mestizaje.txt'
-p534
-S'mestizaje'
-tp535
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_barranca.txt'
-p536
-S'la barranca'
-tp537
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_ave_fenix.txt'
-p538
-S'el ave fenix'
-tp539
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cifrado.txt'
-p540
-S'cifrado'
-tp541
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/las_brujas.txt'
-p542
-S'las brujas'
-tp543
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/inca.txt'
-p544
-S'inca'
-tp545
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/costa_peruana.txt'
-p546
-S'costa peruana'
-tp547
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_margarita.txt'
-p548
-S'la margarita'
-tp549
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_gallo_despertador.txt'
-p550
-S'el gallo despertador'
-tp551
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/proceso_digital_por_imagenes.txt'
-p552
-S'proceso digital por imagenes'
-tp553
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/geranios_rosas.txt'
-p554
-S'geranios rosas'
-tp555
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/energia_cinetica.txt'
-p556
-S'energia cinetica'
-tp557
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jesucristo.txt'
-p558
-S'jesucristo'
-tp559
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/imperio_incaico.txt'
-p560
-S'imperio incaico'
-tp561
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_b.txt'
-p562
-S'arbol b'
-tp563
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tommy_thayer.txt'
-p564
-S'tommy thayer'
-tp565
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/barriga_llena_corazon_contento.txt'
-p566
-S'barriga llena corazon contento'
-tp567
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_llave_de_la_casa.txt'
-p568
-S'la llave de la casa'
-tp569
+tp3
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_constructores_de_catedrales.txt'
+p4
+S'los constructores de catedrales'
+tp5
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/espiritu_santo.txt'
+p6
+S'espiritu santo'
+tp7
 a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_zapatera_prodigiosa.txt'
-p570
+p8
 S'la zapatera prodigiosa'
-tp571
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/heliosfera.txt'
-p572
-S'heliosfera'
-tp573
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pepita_jimenez.txt'
-p574
-S'pepita jimenez'
-tp575
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/paul_scholes.txt'
-p576
-S'paul scholes'
-tp577
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/flash.txt'
-p578
-S'flash'
-tp579
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ala_nocturna.txt'
-p580
-S'ala nocturna'
-tp581
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ib_y_cristinita.txt'
-p582
-S'ib y cristinita'
-tp583
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/gianuigi_buffon.txt'
-p584
-S'gianuigi buffon'
-tp585
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/quebrada.txt'
-p586
-S'quebrada'
-tp587
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/urano.txt'
-p588
-S'urano'
-tp589
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_caracoles.txt'
-p590
-S'los caracoles'
-tp591
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_ultimo_suenio_del_viejo_roble.txt'
-p592
-S'el ultimo suenio del viejo roble'
-tp593
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_yesquero.txt'
-p594
-S'el yesquero'
-tp595
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/neurociencia_computacional.txt'
-p596
-S'neurociencia computacional'
-tp597
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_vida_a_bordo.txt'
-p598
-S'la vida a bordo'
-tp599
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_luna.txt'
-p600
-S'la luna'
-tp601
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ciencia_de_la_computacion.txt'
-p602
-S'ciencia de la computacion'
-tp603
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arreglar_el_mundo.txt'
-p604
-S'arreglar el mundo'
-tp605
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/guns_and_roses.txt'
-p606
-S'guns and roses'
-tp607
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_reina_de_las_nieves.txt'
-p608
-S'la reina de las nieves'
-tp609
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/por_que_donar_sangre.txt'
-p610
-S'por que donar sangre'
-tp611
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/medio_ambiente.txt'
-p612
-S'medio ambiente'
-tp613
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/inteligencia_artificial.txt'
-p614
-S'inteligencia artificial'
-tp615
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_nina_de_los_fosforos.txt'
-p616
-S'la nina de los fosforos'
-tp617
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/inter.txt'
-p618
-S'inter'
-tp619
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_sombra.txt'
-p620
-S'la sombra'
-tp621
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/caminante_no_hay_camino.txt'
-p622
-S'caminante no hay camino'
-tp623
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_chico_y_los_frailes.txt'
-p624
-S'el chico y los frailes'
-tp625
+tp9
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/juan_el_bobo.txt'
+p10
+S'juan el bobo'
+tp11
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/teoria_de_la_computabilidad.txt'
+p12
+S'teoria de la computabilidad'
+tp13
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/meteorologia.txt'
+p14
+S'meteorologia'
+tp15
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/futbol.txt'
+p16
+S'futbol'
+tp17
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos_orientadas_a_objetos.txt'
+p18
+S'base de datos orientadas a objetos'
+tp19
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_gota_de_rocio.txt'
+p20
+S'la gota de rocio'
+tp21
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_dinosaurios.txt'
+p22
+S'los dinosaurios'
+tp23
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/relieve.txt'
+p24
+S'relieve'
+tp25
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/aprendizaje_automatico.txt'
+p26
+S'aprendizaje automatico'
+tp27
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mercurio.txt'
+p28
+S'mercurio'
+tp29
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/recomendaciones_uso_redes_sociales.txt'
+p30
+S'recomendaciones uso redes sociales'
+tp31
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/costa_peruana.txt'
+p32
+S'costa peruana'
+tp33
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_cuello_de_camisa.txt'
+p34
+S'el cuello de camisa'
+tp35
 a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jupiter.txt'
-p626
+p36
 S'jupiter'
-tp627
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/constitucion_1812.txt'
-p628
-S'constitucion 1812'
-tp629
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/computacion_distribuida.txt'
-p630
-S'computacion distribuida'
-tp631
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/plasma.txt'
-p632
-S'plasma'
-tp633
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/holger_el_danes.txt'
-p634
-S'holger el danes'
-tp635
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pegajosos.txt'
-p636
-S'pegajosos'
-tp637
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fusion_nuclear.txt'
-p638
-S'fusion nuclear'
-tp639
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mesut_ozil.txt'
-p640
-S'mesut ozil'
-tp641
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/robotica.txt'
-p642
-S'robotica'
-tp643
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/montania.txt'
-p644
-S'montania'
-tp645
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_familia_feliz.txt'
-p646
-S'la familia feliz'
-tp647
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pradera.txt'
-p648
-S'pradera'
-tp649
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arrecife_de_coral.txt'
-p650
-S'arrecife de coral'
-tp651
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/salinidad.txt'
-p652
-S'salinidad'
-tp653
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fernando_torres.txt'
-p654
-S'fernando torres'
-tp655
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/iglesia_catolica.txt'
-p656
-S'iglesia catolica'
-tp657
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_pequenio_tuk.txt'
-p658
-S'el pequenio tuk'
-tp659
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mar.txt'
-p660
-S'mar'
-tp661
+tp37
 a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_princesa_lucia.txt'
-p662
+p38
 S'la princesa lucia'
-tp663
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/en_un_bosque_de_hoja_caduca.txt'
-p664
-S'en un bosque de hoja caduca'
-tp665
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_desheredada.txt'
-p666
-S'la desheredada'
-tp667
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_pareja_de_enamorados.txt'
-p668
-S'la pareja de enamorados'
-tp669
+tp39
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/energia_cinetica.txt'
+p40
+S'energia cinetica'
+tp41
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/abuelita.txt'
+p42
+S'abuelita'
+tp43
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/software.txt'
+p44
+S'software'
+tp45
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/quebrada.txt'
+p46
+S'quebrada'
+tp47
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/plasma.txt'
+p48
+S'plasma'
+tp49
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/marea.txt'
+p50
+S'marea'
+tp51
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_oveja_negra.txt'
+p52
+S'la oveja negra'
+tp53
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mil_espejos.txt'
+p54
+S'mil espejos'
+tp55
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ricardo_carvalho.txt'
+p56
+S'ricardo carvalho'
+tp57
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_b.txt'
+p58
+S'arbol b'
+tp59
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_margarita.txt'
+p60
+S'la margarita'
+tp61
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bioma.txt'
+p62
+S'bioma'
+tp63
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_microbios.txt'
+p64
+S'los microbios'
+tp65
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/teoria_de_automatas.txt'
+p66
+S'teoria de automatas'
+tp67
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/amor_preposicional.txt'
+p68
+S'amor preposicional'
+tp69
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ruisenor_rosa.txt'
+p70
+S'ruisenor rosa'
+tp71
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/computacion_distribuida.txt'
+p72
+S'computacion distribuida'
+tp73
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/imperio_incaico.txt'
+p74
+S'imperio incaico'
+tp75
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_soldadito_de_plomo.txt'
+p76
+S'el soldadito de plomo'
+tp77
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tres_cerditos.txt'
+p78
+S'tres cerditos'
+tp79
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/barriga_llena_corazon_contento.txt'
+p80
+S'barriga llena corazon contento'
+tp81
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lo_mas_increible.txt'
+p82
+S'lo mas increible'
+tp83
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mariposa_del_aire.txt'
+p84
+S'mariposa del aire'
+tp85
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/manuel_neuer.txt'
+p86
+S'manuel neuer'
+tp87
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/electron.txt'
+p88
+S'electron'
+tp89
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/robotica.txt'
+p90
+S'robotica'
+tp91
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_dragon.txt'
+p92
+S'el dragon'
+tp93
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos_relacional.txt'
+p94
+S'base de datos relacional'
+tp95
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_casa_vieja.txt'
+p96
+S'la casa vieja'
+tp97
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/una_rosa_de_la_tumba_de_homero.txt'
+p98
+S'una rosa de la tumba de homero'
+tp99
 a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/razonamiento_automatizado.txt'
-p670
+p100
 S'razonamiento automatizado'
+tp101
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/diego_armando_maradona.txt'
+p102
+S'diego armando maradona'
+tp103
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/de_ola_en_ola.txt'
+p104
+S'de ola en ola'
+tp105
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_paz.txt'
+p106
+S'la paz'
+tp107
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lago.txt'
+p108
+S'lago'
+tp109
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/aristoteles.txt'
+p110
+S'aristoteles'
+tp111
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/oceano.txt'
+p112
+S'oceano'
+tp113
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/monticulo_suave.txt'
+p114
+S'monticulo suave'
+tp115
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_cofre_volador.txt'
+p116
+S'el cofre volador'
+tp117
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mar.txt'
+p118
+S'mar'
+tp119
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_hombre_no_viene_del_mono.txt'
+p120
+S'el hombre no viene del mono'
+tp121
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/caperucita_roja.txt'
+p122
+S'caperucita roja'
+tp123
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/peter_pan.txt'
+p124
+S'peter pan'
+tp125
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_binario.txt'
+p126
+S'arbol binario'
+tp127
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sastrecillo_valiente.txt'
+p128
+S'sastrecillo valiente'
+tp129
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/teoria_de_computacion.txt'
+p130
+S'teoria de computacion'
+tp131
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/paul_scholes.txt'
+p132
+S'paul scholes'
+tp133
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_paisaje_cambia_de_color.txt'
+p134
+S'el paisaje cambia de color'
+tp135
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos_transaccionales.txt'
+p136
+S'base de datos transaccionales'
+tp137
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/poema_20.txt'
+p138
+S'poema 20'
+tp139
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/una_historia.txt'
+p140
+S'una historia'
+tp141
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/juventus.txt'
+p142
+S'juventus'
+tp143
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_ruisenor.txt'
+p144
+S'el ruisenor'
+tp145
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/aqualad.txt'
+p146
+S'aqualad'
+tp147
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/es_la_pura_verdad.txt'
+p148
+S'es la pura verdad'
+tp149
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/viento_solar.txt'
+p150
+S'viento solar'
+tp151
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/principios_de_la_ciencia.txt'
+p152
+S'principios de la ciencia'
+tp153
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tommy_thayer.txt'
+p154
+S'tommy thayer'
+tp155
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/vision_del_valuarte.txt'
+p156
+S'vision del valuarte'
+tp157
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_familia_feliz.txt'
+p158
+S'la familia feliz'
+tp159
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/vision_artificial.txt'
+p160
+S'vision artificial'
+tp161
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pepita_jimenez.txt'
+p162
+S'pepita jimenez'
+tp163
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/neurociencia_computacional.txt'
+p164
+S'neurociencia computacional'
+tp165
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/las_habichuelas_magicas.txt'
+p166
+S'las habichuelas magicas'
+tp167
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/division_del_dia.txt'
+p168
+S'division del dia'
+tp169
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/dios.txt'
+p170
+S'dios'
+tp171
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_reina_de_las_nieves.txt'
+p172
+S'la reina de las nieves'
+tp173
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/eric_singer.txt'
+p174
+S'eric singer'
+tp175
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/dos_pisones.txt'
+p176
+S'dos pisones'
+tp177
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/alicia_caerina.txt'
+p178
+S'alicia caerina'
+tp179
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_gota_de_agua.txt'
+p180
+S'la gota de agua'
+tp181
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lazarillo_de_tormes.txt'
+p182
+S'lazarillo de tormes'
+tp183
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mis_deseos.txt'
+p184
+S'mis deseos'
+tp185
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/biologia.txt'
+p186
+S'biologia'
+tp187
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_patito_feo.txt'
+p188
+S'el patito feo'
+tp189
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/atmosfera_terreste.txt'
+p190
+S'atmosfera terreste'
+tp191
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/biocenosis.txt'
+p192
+S'biocenosis'
+tp193
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ciencia_de_la_computacion.txt'
+p194
+S'ciencia de la computacion'
+tp195
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos_jerarquica.txt'
+p196
+S'base de datos jerarquica'
+tp197
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bayern_munich.txt'
+p198
+S'bayern munich'
+tp199
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/campeones_de_salto.txt'
+p200
+S'campeones de salto'
+tp201
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/flash2.txt'
+p202
+S'flash2'
+tp203
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_duende_de_la_tienda.txt'
+p204
+S'el duende de la tienda'
+tp205
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/juan_sebastian_veron.txt'
+p206
+S'juan sebastian veron'
+tp207
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_ninio_travieso.txt'
+p208
+S'el ninio travieso'
+tp209
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_zorra_partera.txt'
+p210
+S'la zorra partera'
+tp211
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ingenieria_informatica.txt'
+p212
+S'ingenieria informatica'
+tp213
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/inca.txt'
+p214
+S'inca'
+tp215
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/viejecitos_de_la_cueva.txt'
+p216
+S'viejecitos de la cueva'
+tp217
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bosque.txt'
+p218
+S'bosque'
+tp219
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_desafio_del_espacio.txt'
+p220
+S'el desafio del espacio'
+tp221
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/alvaro_arveloa.txt'
+p222
+S'alvaro arveloa'
+tp223
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/andres_iniesta.txt'
+p224
+S'andres iniesta'
+tp225
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arreglar_el_mundo.txt'
+p226
+S'arreglar el mundo'
+tp227
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/montania.txt'
+p228
+S'montania'
+tp229
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/peste_negra.txt'
+p230
+S'peste negra'
+tp231
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/espirirtu_santo.txt'
+p232
+S'espirirtu santo'
+tp233
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/quechua.txt'
+p234
+S'quechua'
+tp235
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/energia.txt'
+p236
+S'energia'
+tp237
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arrecife_de_coral.txt'
+p238
+S'arrecife de coral'
+tp239
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/por_que_empezamos_a_contar.txt'
+p240
+S'por que empezamos a contar'
+tp241
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/parma.txt'
+p242
+S'parma'
+tp243
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ultimo_dia.txt'
+p244
+S'ultimo dia'
+tp245
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/salinidad.txt'
+p246
+S'salinidad'
+tp247
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/kiss.txt'
+p248
+S'kiss'
+tp249
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_zapatos_rojos.txt'
+p250
+S'los zapatos rojos'
+tp251
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/romance_en_el_establo_de_belen.txt'
+p252
+S'romance en el establo de belen'
+tp253
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_gallo_despertador.txt'
+p254
+S'el gallo despertador'
+tp255
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/platero_y_yo.txt'
+p256
+S'platero y yo'
+tp257
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/rio.txt'
+p258
+S'rio'
+tp259
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/estrella.txt'
+p260
+S'estrella'
+tp261
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/gene_simmons.txt'
+p262
+S'gene simmons'
+tp263
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/viento.txt'
+p264
+S'viento'
+tp265
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/altiplano.txt'
+p266
+S'altiplano'
+tp267
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_libro_mudo.txt'
+p268
+S'el libro mudo'
+tp269
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/criptografia.txt'
+p270
+S'criptografia'
+tp271
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/habitat.txt'
+p272
+S'habitat'
+tp273
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/presion.txt'
+p274
+S'presion'
+tp275
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pesca.txt'
+p276
+S'pesca'
+tp277
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/galletitas.txt'
+p278
+S'galletitas'
+tp279
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fin_de_invierno.txt'
+p280
+S'fin de invierno'
+tp281
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos_de_red.txt'
+p282
+S'base de datos de red'
+tp283
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_elfo_del_rosal.txt'
+p284
+S'el elfo del rosal'
+tp285
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/en_el_mar_remoto.txt'
+p286
+S'en el mar remoto'
+tp287
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/esteban_granero.txt'
+p288
+S'esteban granero'
+tp289
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/parque_nacional_cabaneros.txt'
+p290
+S'parque nacional cabaneros'
+tp291
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/firma_digital.txt'
+p292
+S'firma digital'
+tp293
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/proton.txt'
+p294
+S'proton'
+tp295
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_ultima_perla.txt'
+p296
+S'la ultima perla'
+tp297
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/inter.txt'
+p298
+S'inter'
+tp299
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_gollete_de_botella.txt'
+p300
+S'el gollete de botella'
+tp301
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/computacion_cuantica.txt'
+p302
+S'computacion cuantica'
+tp303
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/metodologia_lectora.txt'
+p304
+S'metodologia lectora'
+tp305
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_llave_de_la_casa.txt'
+p306
+S'la llave de la casa'
+tp307
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_porquerizo.txt'
+p308
+S'el porquerizo'
+tp309
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/colas_el_chico_y_colas_el_grande.txt'
+p310
+S'colas el chico y colas el grande'
+tp311
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/revolucion_astronomica.txt'
+p312
+S'revolucion astronomica'
+tp313
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/zaragoza.txt'
+p314
+S'zaragoza'
+tp315
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cometa.txt'
+p316
+S'cometa'
+tp317
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cisnes_salvajes.txt'
+p318
+S'cisnes salvajes'
+tp319
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sistema_solar.txt'
+p320
+S'sistema solar'
+tp321
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/compilador.txt'
+p322
+S'compilador'
+tp323
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_tullido.txt'
+p324
+S'el tullido'
+tp325
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tia_dolor_de_muelas.txt'
+p326
+S'tia dolor de muelas'
+tp327
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_abeto.txt'
+p328
+S'el abeto'
+tp329
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tierra.txt'
+p330
+S'tierra'
+tp331
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/venus.txt'
+p332
+S'venus'
+tp333
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/clima.txt'
+p334
+S'clima'
+tp335
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/parque_arqueologico.txt'
+p336
+S'parque arqueologico'
+tp337
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cultura_moche.txt'
+p338
+S'cultura moche'
+tp339
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fauna.txt'
+p340
+S'fauna'
+tp341
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_companero_de_viaje.txt'
+p342
+S'el companero de viaje'
+tp343
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_luna.txt'
+p344
+S'la luna'
+tp345
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/eclipse_solar.txt'
+p346
+S'eclipse solar'
+tp347
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_caracoles.txt'
+p348
+S'los caracoles'
+tp349
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/no_era_buena_para_nada.txt'
+p350
+S'no era buena para nada'
+tp351
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/karim_benzema.txt'
+p352
+S'karim benzema'
+tp353
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/iglesia_catolica.txt'
+p354
+S'iglesia catolica'
+tp355
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jardinero_y_el_senior.txt'
+p356
+S'jardinero y el senior'
+tp357
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/agua_dulce.txt'
+p358
+S'agua dulce'
+tp359
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/monticulo_fibonacci.txt'
+p360
+S'monticulo fibonacci'
+tp361
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/energia_quimica.txt'
+p362
+S'energia quimica'
+tp363
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/todos_archivos.txt'
+p364
+S'todos archivos'
+tp365
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/signos_de_puntuacion.txt'
+p366
+S'signos de puntuacion'
+tp367
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/barcos_de_papel.txt'
+p368
+S'barcos de papel'
+tp369
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/rio_ferdinand.txt'
+p370
+S'rio ferdinand'
+tp371
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tabla_hash.txt'
+p372
+S'tabla hash'
+tp373
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/chanclos_de_la_suerte.txt'
+p374
+S'chanclos de la suerte'
+tp375
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_princesa_y_el_frejol.txt'
+p376
+S'la princesa y el frejol'
+tp377
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/agriculturaa.txt'
+p378
+S'agriculturaa'
+tp379
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/marido_o_hermano.txt'
+p380
+S'marido o hermano'
+tp381
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jabali_de_bronce.txt'
+p382
+S'jabali de bronce'
+tp383
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/gorro_de_dormir_del_solteron.txt'
+p384
+S'gorro de dormir del solteron'
+tp385
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_regenta.txt'
+p386
+S'la regenta'
+tp387
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/neptuno.txt'
+p388
+S'neptuno'
+tp389
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/flash.txt'
+p390
+S'flash'
+tp391
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_caracol_y_el_rosal.txt'
+p392
+S'el caracol y el rosal'
+tp393
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/gato_con_botas.txt'
+p394
+S'gato con botas'
+tp395
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_nido_de_cisnes.txt'
+p396
+S'el nido de cisnes'
+tp397
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ensenaras.txt'
+p398
+S'ensenaras'
+tp399
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lionel_messi.txt'
+p400
+S'lionel messi'
+tp401
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/heavy_metal.txt'
+p402
+S'heavy metal'
+tp403
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/marte.txt'
+p404
+S'marte'
+tp405
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/petroglifo.txt'
+p406
+S'petroglifo'
+tp407
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/castilla.txt'
+p408
+S'castilla'
+tp409
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/puro_musculo.txt'
+p410
+S'puro musculo'
+tp411
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_iliada.txt'
+p412
+S'la iliada'
+tp413
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cifrado.txt'
+p414
+S'cifrado'
+tp415
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/madrigal_de_blanca_nieve.txt'
+p416
+S'madrigal de blanca nieve'
+tp417
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_sangre.txt'
+p418
+S'la sangre'
+tp419
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pulgarcito.txt'
+p420
+S'pulgarcito'
+tp421
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_rosa_mas_bella_del_mundo.txt'
+p422
+S'la rosa mas bella del mundo'
+tp423
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ingenieria_del_software.txt'
+p424
+S'ingenieria del software'
+tp425
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/disenados_para_la_vida.txt'
+p426
+S'disenados para la vida'
+tp427
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/matriz.txt'
+p428
+S'matriz'
+tp429
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/patito_feo.txt'
+p430
+S'patito feo'
+tp431
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/gonzalo_higuain.txt'
+p432
+S'gonzalo higuain'
+tp433
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/deidad.txt'
+p434
+S'deidad'
+tp435
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/como_se_dibuja_un_paisaje.txt'
+p436
+S'como se dibuja un paisaje'
+tp437
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/nitrogeno.txt'
+p438
+S'nitrogeno'
+tp439
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/liverpool.txt'
+p440
+S'liverpool'
+tp441
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/steven_tyler.txt'
+p442
+S'steven tyler'
+tp443
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/andriy_shevchenko.txt'
+p444
+S'andriy shevchenko'
+tp445
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jesucristo.txt'
+p446
+S'jesucristo'
+tp447
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_nina_de_los_fosforos.txt'
+p448
+S'la nina de los fosforos'
+tp449
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bambi.txt'
+p450
+S'bambi'
+tp451
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ecologia.txt'
+p452
+S'ecologia'
+tp453
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/las_brujas.txt'
+p454
+S'las brujas'
+tp455
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_viejo_farol.txt'
+p456
+S'el viejo farol'
+tp457
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fusion_nuclear.txt'
+p458
+S'fusion nuclear'
+tp459
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fabio_coentrao.txt'
+p460
+S'fabio coentrao'
+tp461
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/litosfera.txt'
+p462
+S'litosfera'
+tp463
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_angel.txt'
+p464
+S'el angel'
+tp465
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cada_cosa_en_su_sitio.txt'
+p466
+S'cada cosa en su sitio'
+tp467
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/emergencia_nutricional_en_el_cuerno_de_africa.txt'
+p468
+S'emergencia nutricional en el cuerno de africa'
+tp469
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ib_y_cristinita.txt'
+p470
+S'ib y cristinita'
+tp471
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_barranca.txt'
+p472
+S'la barranca'
+tp473
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_pareja_de_enamorados.txt'
+p474
+S'la pareja de enamorados'
+tp475
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_primavera_besaba.txt'
+p476
+S'la primavera besaba'
+tp477
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mesut_ozil.txt'
+p478
+S'mesut ozil'
+tp479
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/gianuigi_buffon.txt'
+p480
+S'gianuigi buffon'
+tp481
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/constitucion_espa\xc3\xb1ola_1978.txt'
+p482
+S'constitucion espa\xc3\xb1ola 1978'
+tp483
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/geranios_rosas.txt'
+p484
+S'geranios rosas'
+tp485
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_tigre_de_malasia.txt'
+p486
+S'el tigre de malasia'
+tp487
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_vecinos.txt'
+p488
+S'los vecinos'
+tp489
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/teoria_de_grafos.txt'
+p490
+S'teoria de grafos'
+tp491
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/las_ciguenas.txt'
+p492
+S'las ciguenas'
+tp493
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/desierto.txt'
+p494
+S'desierto'
+tp495
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_zapato_fugitivo.txt'
+p496
+S'el zapato fugitivo'
+tp497
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/listas.txt'
+p498
+S'listas'
+tp499
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lenguajes_de_programacion.txt'
+p500
+S'lenguajes de programacion'
+tp501
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_pastora_y_el_deshollinador.txt'
+p502
+S'la pastora y el deshollinador'
+tp503
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_binario_de_busqueda.txt'
+p504
+S'arbol binario de busqueda'
+tp505
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/urano.txt'
+p506
+S'urano'
+tp507
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/particula_subatomica.txt'
+p508
+S'particula subatomica'
+tp509
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_desheredada.txt'
+p510
+S'la desheredada'
+tp511
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_vieja_losa_sepulcral.txt'
+p512
+S'la vieja losa sepulcral'
+tp513
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/frank_ribery.txt'
+p514
+S'frank ribery'
+tp515
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/zinedine_zidane.txt'
+p516
+S'zinedine zidane'
+tp517
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sabana.txt'
+p518
+S'sabana'
+tp519
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/zlatan_ibrahimovic.txt'
+p520
+S'zlatan ibrahimovic'
+tp521
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cultura_huari.txt'
+p522
+S'cultura huari'
+tp523
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jamon_iberico.txt'
+p524
+S'jamon iberico'
+tp525
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_yesquero.txt'
+p526
+S'el yesquero'
+tp527
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_vestidos_nuevos_del_emperador.txt'
+p528
+S'los vestidos nuevos del emperador'
+tp529
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_de_la_ciencia.txt'
+p530
+S'arbol de la ciencia'
+tp531
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/magnetosfera.txt'
+p532
+S'magnetosfera'
+tp533
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_gran_serpiente_del_mar.txt'
+p534
+S'la gran serpiente del mar'
+tp535
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/guns_and_roses.txt'
+p536
+S'guns and roses'
+tp537
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/electronegatividad.txt'
+p538
+S'electronegatividad'
+tp539
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/valencia.txt'
+p540
+S'valencia'
+tp541
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/algoritmo.txt'
+p542
+S'algoritmo'
+tp543
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_pacto_de_amistad.txt'
+p544
+S'el pacto de amistad'
+tp545
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cristiano_ronaldo.txt'
+p546
+S'cristiano ronaldo'
+tp547
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_campana.txt'
+p548
+S'la campana'
+tp549
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/computacion_grafica.txt'
+p550
+S'computacion grafica'
+tp551
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sami_khedira.txt'
+p552
+S'sami khedira'
+tp553
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/caperucita.txt'
+p554
+S'caperucita'
+tp555
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/saturno.txt'
+p556
+S'saturno'
+tp557
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pegajosos.txt'
+p558
+S'pegajosos'
+tp559
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fernando_torres.txt'
+p560
+S'fernando torres'
+tp561
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/en_un_bosque_de_hoja_caduca.txt'
+p562
+S'en un bosque de hoja caduca'
+tp563
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/analisis_de_algoritmos.txt'
+p564
+S'analisis de algoritmos'
+tp565
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_sombra.txt'
+p566
+S'la sombra'
+tp567
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sol.txt'
+p568
+S'sol'
+tp569
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/glaciar.txt'
+p570
+S'glaciar'
+tp571
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/historia_de_dos_ciudades.txt'
+p572
+S'historia de dos ciudades'
+tp573
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/heliosfera.txt'
+p574
+S'heliosfera'
+tp575
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/monticulo_binario.txt'
+p576
+S'monticulo binario'
+tp577
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mineria_de_datos.txt'
+p578
+S'mineria de datos'
+tp579
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cesc_fabregas.txt'
+p580
+S'cesc fabregas'
+tp581
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bajo_el_sauce.txt'
+p582
+S'bajo el sauce'
+tp583
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tiene_que_haber_diferencias.txt'
+p584
+S'tiene que haber diferencias'
+tp585
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/costumbres_del_leon.txt'
+p586
+S'costumbres del leon'
+tp587
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_diamante.txt'
+p588
+S'el diamante'
+tp589
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pradera.txt'
+p590
+S'pradera'
+tp591
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pulgarcita.txt'
+p592
+S'pulgarcita'
+tp593
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/axl_rose.txt'
+p594
+S'axl rose'
+tp595
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/medio_ambiente.txt'
+p596
+S'medio ambiente'
+tp597
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cultura_nazca.txt'
+p598
+S'cultura nazca'
+tp599
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_ave_fenix.txt'
+p600
+S'el ave fenix'
+tp601
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/retrato_del_licenciado_cabra.txt'
+p602
+S'retrato del licenciado cabra'
+tp603
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_hucha.txt'
+p604
+S'la hucha'
+tp605
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sweet_child_of_mine.txt'
+p606
+S'sweet child of mine'
+tp607
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/estructuras_de_datos.txt'
+p608
+S'estructuras de datos'
+tp609
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pepe.txt'
+p610
+S'pepe'
+tp611
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_rojo_negro.txt'
+p612
+S'arbol rojo negro'
+tp613
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_eclipse.txt'
+p614
+S'el eclipse'
+tp615
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/dizzi_reed.txt'
+p616
+S'dizzi reed'
+tp617
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_sirenita.txt'
+p618
+S'la sirenita'
+tp619
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/las_tres_preguntas.txt'
+p620
+S'las tres preguntas'
+tp621
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lazio.txt'
+p622
+S'lazio'
+tp623
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/kaka.txt'
+p624
+S'kaka'
+tp625
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/combustible.txt'
+p626
+S'combustible'
+tp627
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/juegos_olimpicos.txt'
+p628
+S'juegos olimpicos'
+tp629
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/iker_casillas.txt'
+p630
+S'iker casillas'
+tp631
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/vida_silvestre.txt'
+p632
+S'vida silvestre'
+tp633
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_nina_judia.txt'
+p634
+S'la nina judia'
+tp635
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/caminante_no_hay_camino.txt'
+p636
+S'caminante no hay camino'
+tp637
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_pequenio_tuk.txt'
+p638
+S'el pequenio tuk'
+tp639
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_plancton.txt'
+p640
+S'el plancton'
+tp641
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_lino.txt'
+p642
+S'el lino'
+tp643
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_piedra_filosofal.txt'
+p644
+S'la piedra filosofal'
+tp645
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/manchester_united.txt'
+p646
+S'manchester united'
+tp647
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/no_te_detengas.txt'
+p648
+S'no te detengas'
+tp649
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/valle.txt'
+p650
+S'valle'
+tp651
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_ultimo_suenio_del_viejo_roble.txt'
+p652
+S'el ultimo suenio del viejo roble'
+tp653
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/inteligencia_artificial.txt'
+p654
+S'inteligencia artificial'
+tp655
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_b+.txt'
+p656
+S'arbol b+'
+tp657
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/decalogo_para_crecer_en_paz.txt'
+p658
+S'decalogo para crecer en paz'
+tp659
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/hidrogeno.txt'
+p660
+S'hidrogeno'
+tp661
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/si.txt'
+p662
+S'si'
+tp663
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_aguja_de_zurcir.txt'
+p664
+S'la aguja de zurcir'
+tp665
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/precipitacion.txt'
+p666
+S'precipitacion'
+tp667
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/buen_humor.txt'
+p668
+S'buen humor'
+tp669
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/de_animales.txt'
+p670
+S'de animales'
 tp671
 a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/dia.txt'
 p672
 S'dia'
 tp673
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/aqualad.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/holger_el_danes.txt'
 p674
-S'aqualad'
+S'holger el danes'
 tp675
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jardinero_y_el_senior.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/las_flores_de_la_pequena_ida.txt'
 p676
-S'jardinero y el senior'
+S'las flores de la pequena ida'
 tp677
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/teoria_de_grafos.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/constitucion_1812.txt'
 p678
-S'teoria de grafos'
+S'constitucion 1812'
 tp679
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/de_animales.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_cisnes_salvajes.txt'
 p680
-S'de animales'
+S'los cisnes salvajes'
 tp681
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/karim_benzema.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/programacion.txt'
 p682
-S'karim benzema'
+S'programacion'
 tp683
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/oceano.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/real_madrid.txt'
 p684
-S'oceano'
+S'real madrid'
 tp685
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cada_cosa_en_su_sitio.txt'
-p686
-S'cada cosa en su sitio'
-tp687
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/caperucita.txt'
-p688
-S'caperucita'
-tp689
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/es_la_pura_verdad.txt'
-p690
-S'es la pura verdad'
-tp691
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos_transaccionales.txt'
-p692
-S'base de datos transaccionales'
-tp693
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/las_habichuelas_magicas.txt'
-p694
-S'las habichuelas magicas'
-tp695
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_diamante.txt'
-p696
-S'el diamante'
-tp697
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sergio_ramos.txt'
-p698
-S'sergio ramos'
-tp699
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lago.txt'
-p700
-S'lago'
-tp701
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/monticulo_fibonacci.txt'
-p702
-S'monticulo fibonacci'
-tp703
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_cofre_volador.txt'
-p704
-S'el cofre volador'
-tp705
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/aristoteles.txt'
-p706
-S'aristoteles'
-tp707
 a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/consumo_eficiente_y_responsable.txt'
-p708
+p686
 S'consumo eficiente y responsable'
+tp687
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/una_hoja_del_cielo.txt'
+p688
+S'una hoja del cielo'
+tp689
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_abecedario.txt'
+p690
+S'el abecedario'
+tp691
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/temperatura.txt'
+p692
+S'temperatura'
+tp693
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/mestizaje.txt'
+p694
+S'mestizaje'
+tp695
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/crazy.txt'
+p696
+S'crazy'
+tp697
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_chico_y_los_frailes.txt'
+p698
+S'el chico y los frailes'
+tp699
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/masa.txt'
+p700
+S'masa'
+tp701
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/flash3.txt'
+p702
+S'flash3'
+tp703
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/decisiones.txt'
+p704
+S'decisiones'
+tp705
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/marisma.txt'
+p706
+S'marisma'
+tp707
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/paul_stanley.txt'
+p708
+S'paul stanley'
 tp709
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cultura_chavin.txt'
-p710
-S'cultura chavin'
-tp711
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lenguajes_de_programacion.txt'
-p712
-S'lenguajes de programacion'
-tp713
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/puro_musculo.txt'
-p714
-S'puro musculo'
-tp715
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/tiene_que_haber_diferencias.txt'
-p716
-S'tiene que haber diferencias'
-tp717
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/recomendaciones_uso_redes_sociales.txt'
-p718
-S'recomendaciones uso redes sociales'
-tp719
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/manuel_neuer.txt'
-p720
-S'manuel neuer'
-tp721
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/presion.txt'
-p722
-S'presion'
-tp723
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_nido_de_cisnes.txt'
-p724
-S'el nido de cisnes'
-tp725
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/dios.txt'
-p726
-S'dios'
-tp727
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/alvaro_arveloa.txt'
-p728
-S'alvaro arveloa'
-tp729
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/protoplaneta.txt'
-p730
-S'protoplaneta'
-tp731
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/signos_de_puntuacion.txt'
-p732
-S'signos de puntuacion'
-tp733
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sistema_solar.txt'
-p734
-S'sistema solar'
-tp735
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_tullido.txt'
-p736
-S'el tullido'
-tp737
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sweet_child_of_mine.txt'
-p738
-S'sweet child of mine'
-tp739
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/kaka.txt'
-p740
-S'kaka'
-tp741
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/listas.txt'
-p742
-S'listas'
-tp743
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_dragon.txt'
-p744
-S'el dragon'
-tp745
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/en_el_mar_remoto.txt'
-p746
-S'en el mar remoto'
-tp747
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_gota_de_rocio.txt'
-p748
-S'la gota de rocio'
-tp749
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/hidrogeno.txt'
-p750
-S'hidrogeno'
-tp751
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sastrecillo_valiente.txt'
-p752
-S'sastrecillo valiente'
-tp753
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/computacion_cuantica.txt'
-p754
-S'computacion cuantica'
-tp755
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/constitucion_espa\xc3\xb1ola_1978.txt'
-p756
-S'constitucion espa\xc3\xb1ola 1978'
-tp757
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_dinosaurios.txt'
-p758
-S'los dinosaurios'
-tp759
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fc_barcelona.txt'
-p760
-S'fc barcelona'
-tp761
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/eclipse_solar.txt'
-p762
-S'eclipse solar'
-tp763
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ultimo_dia.txt'
-p764
-S'ultimo dia'
-tp765
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/rio.txt'
-p766
-S'rio'
-tp767
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/de_ola_en_ola.txt'
-p768
-S'de ola en ola'
-tp769
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_lino.txt'
-p770
-S'el lino'
-tp771
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/las_ciguenas.txt'
-p772
-S'las ciguenas'
-tp773
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/arbol_binario.txt'
-p774
-S'arbol binario'
-tp775
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/carta_de_una_madre.txt'
-p776
-S'carta de una madre'
-tp777
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/petroglifo.txt'
-p778
-S'petroglifo'
-tp779
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/algoritmo.txt'
-p780
-S'algoritmo'
-tp781
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/flash2.txt'
-p782
-S'flash2'
-tp783
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/buen_humor.txt'
-p784
-S'buen humor'
-tp785
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/los_constructores_de_catedrales.txt'
-p786
-S'los constructores de catedrales'
-tp787
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cinco_en_una_vaina.txt'
-p788
-S'cinco en una vaina'
-tp789
 a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/programacion_concurrente.txt'
-p790
+p710
 S'programacion concurrente'
+tp711
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/fc_barcelona.txt'
+p712
+S'fc barcelona'
+tp713
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/golfo.txt'
+p714
+S'golfo'
+tp715
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ala_nocturna.txt'
+p716
+S'ala nocturna'
+tp717
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sergio_ramos.txt'
+p718
+S'sergio ramos'
+tp719
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/princesa_del_guisante.txt'
+p720
+S'princesa del guisante'
+tp721
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cultura_chavin.txt'
+p722
+S'cultura chavin'
+tp723
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/proceso_digital_por_imagenes.txt'
+p724
+S'proceso digital por imagenes'
+tp725
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/david_villa.txt'
+p726
+S'david villa'
+tp727
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_viento_de_la_tempestad.txt'
+p728
+S'el viento de la tempestad'
+tp729
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/carta_de_una_madre.txt'
+p730
+S'carta de una madre'
+tp731
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/playa.txt'
+p732
+S'playa'
+tp733
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/viajes_y_descubrimientos_geograficos.txt'
+p734
+S'viajes y descubrimientos geograficos'
+tp735
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/xabi_alonso.txt'
+p736
+S'xabi alonso'
+tp737
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/jose_mourinho.txt'
+p738
+S'jose mourinho'
+tp739
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/flora.txt'
+p740
+S'flora'
+tp741
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_espinosa_senda_del_honor.txt'
+p742
+S'la espinosa senda del honor'
+tp743
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/por_que_donar_sangre.txt'
+p744
+S'por que donar sangre'
+tp745
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ac_milan.txt'
+p746
+S'ac milan'
+tp747
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_cerro_de_los_elfos.txt'
+p748
+S'el cerro de los elfos'
+tp749
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/algo.txt'
+p750
+S'algo'
+tp751
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/ecosistema.txt'
+p752
+S'ecosistema'
+tp753
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/planeta.txt'
+p754
+S'planeta'
+tp755
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_soledad.txt'
+p756
+S'la soledad'
+tp757
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/luis_figo.txt'
+p758
+S'luis figo'
+tp759
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/redes_de_computadoras.txt'
+p760
+S'redes de computadoras'
+tp761
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/angel_di_maria.txt'
+p762
+S'angel di maria'
+tp763
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/computacion_paralela.txt'
+p764
+S'computacion paralela'
+tp765
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/bio_informatica.txt'
+p766
+S'bio informatica'
+tp767
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/base_de_datos.txt'
+p768
+S'base de datos'
+tp769
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/protoplaneta.txt'
+p770
+S'protoplaneta'
+tp771
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/complejidad_computacional.txt'
+p772
+S'complejidad computacional'
+tp773
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/wayne_rooney.txt'
+p774
+S'wayne rooney'
+tp775
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/cinco_en_una_vaina.txt'
+p776
+S'cinco en una vaina'
+tp777
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/romance_del_conde_olinos.txt'
+p778
+S'romance del conde olinos'
+tp779
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/lo_que_hace_el_padre_esta_bien_hecho.txt'
+p780
+S'lo que hace el padre esta bien hecho'
+tp781
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/la_vida_a_bordo.txt'
+p782
+S'la vida a bordo'
+tp783
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/curiosidades_animales.txt'
+p784
+S'curiosidades animales'
+tp785
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/yo_puedo_cambiar_el_mundo.txt'
+p786
+S'yo puedo cambiar el mundo'
+tp787
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/sopa_de_palillo_de_morcilla.txt'
+p788
+S'sopa de palillo de morcilla'
+tp789
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/inicio_de_la_agricultura_y_ganaderia.txt'
+p790
+S'inicio de la agricultura y ganaderia'
 tp791
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/gato_con_botas.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/hernan_crespo.txt'
 p792
-S'gato con botas'
+S'hernan crespo'
 tp793
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/teoria_de_la_computabilidad.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/origen_del_chocolate.txt'
 p794
-S'teoria de la computabilidad'
+S'origen del chocolate'
 tp795
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/juan_el_bobo.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/humedad.txt'
 p796
-S'juan el bobo'
+S'humedad'
 tp797
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/el_paisaje_cambia_de_color.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/canion.txt'
 p798
-S'el paisaje cambia de color'
+S'canion'
 tp799
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/juegos_olimpicos.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/aerosmith.txt'
 p800
-S'juegos olimpicos'
+S'aerosmith'
 tp801
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/romance_en_el_establo_de_belen.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/pantano.txt'
 p802
-S'romance en el establo de belen'
+S'pantano'
 tp803
-a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/revolucion_astronomica.txt'
+a(S'/home/andoni/Escritorio/PythonProjets/InfRecoverySistem/Documents/soldadito_de_plomo.txt'
 p804
-S'revolucion astronomica'
+S'soldadito de plomo'
 tp805
 a.

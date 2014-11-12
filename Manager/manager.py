@@ -76,11 +76,8 @@ class SRI_Manager(object):
     def organize_documents(self):
         documents = self.pre_process_corpus()
         
-        model = BM(documents)
+        model = BM(documents)        
         matrix = model.generate_matrix_model()
-        
-         
-        
         with open(matrix_model , 'wb') as fid:
             cPickle.dump(matrix , fid)
         '''
@@ -98,22 +95,33 @@ class SRI_Manager(object):
         if type==2: 
             file = name_processed_corpus
         if type==3:
-            file = matrix_model
-        
+            file = matrix_model        
         if type==4:
-            file = vocabulary                                 
+            file = vocabulary  
+                                           
         with open(file , 'rb') as fid:
                 clf_load = cPickle.load(fid)                            
         return clf_load                        
     
-    def make_query(self , query , relevants=""):
+    def make_query(self , query , relevants=15):
         
         processed = PP(query)
-        print processed.get_processed_document()
+        list = processed.get_processed_document().split(' ') 
+        vocabulary_list = self.load_document_information(4)
+        query_bool = []
+        for i in vocabulary_list:
+            if i in list:
+                query_bool.append(1)
+            else:
+                query_bool.append(0)
+        
+        print query_bool
+        print len(query_bool)
+        
         
         '''
-          * preprocesar el query
-          * convertir a booleano
+          * preprocesar el query ok
+          * convertir a booleano  ok
           * hacer el algoritmo genetico del query pa optimizar
           * comparar el query con todas los vectores de los documentos
           * devolver los n mas relevantes

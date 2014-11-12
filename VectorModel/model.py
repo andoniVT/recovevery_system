@@ -9,6 +9,8 @@ Created on 09/11/2014
 import sys  
 reload(sys)  
 sys.setdefaultencoding('utf8')
+from Configuration.settings import vocabulary , path
+import cPickle
 
 class BooleanModel(object):
     
@@ -33,14 +35,16 @@ class BooleanModel(object):
         return words
     
     def generate_matrix_model(self):
-        vocabulary = self.get_vocabulary()
-        print len(vocabulary)
+        the_vocabulary = self.get_vocabulary()
+        with open(path + "/Manager/" + vocabulary , 'wb') as fid:
+            cPickle.dump(the_vocabulary , fid)
+        
         matrix = []
         val = 1
         for i in self.__documents:
             vector = []
             words = i.split(' ')
-            for j in vocabulary:
+            for j in the_vocabulary:
                 if self.find_word(j, words):
                     vector.append(1)
                 else:
