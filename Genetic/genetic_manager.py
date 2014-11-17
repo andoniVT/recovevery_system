@@ -29,7 +29,10 @@ funcion de evaluacion  :
 '''
 
 import math
-from random import randint
+from random import randint , uniform
+import threading 
+import time
+
 class FitnessFunction(object):
     
     def __init__(self , vector , vector2 , option):
@@ -59,7 +62,7 @@ class FitnessFunction(object):
             sumxy+=x*y
         value = math.sqrt(sumxx*sumyy)
         if value!=0:
-            return sumxy/value
+            return round(sumxy/value , 4)
         else: 
             return 0
     
@@ -93,7 +96,80 @@ class Genetic(object):
         self.__prob_cr = pc
         self.__prob_mut = pm
         self.__fitness = []
+        self.__optimized_query = initial_query
+        for i in range(len(self.__population)):
+            self.__fitness.append(0)
+        
     
+    def print_population(self):
+        print self.__population
+    
+    def print_fitness(self):
+        print self.__fitness
+    
+    def calculate_fitness(self , index):
+        func = FitnessFunction(self.__optimized_query , self.__population[index] , 1)
+        self.__fitness[index]=  func.get_fitness()
+    
+    def decode_population(self):
+        threads = list()
+        for i in range(len(self.__population)):
+            t = threading.Thread(target=self.calculate_fitness , args=(i,))
+            threads.append(t)
+            t.start()
+            t.join()
+    
+    def sort_population(self):
+        for i in range(len(self.__fitness)):
+            for k in range(len(self.__fitness)-1, i , -1):
+                if(self.__fitness[k]>self.__fitness[k-1]):
+                    tmp = self.__fitness[k]
+                    temp2 = self.__population[k]
+                    self.__fitness[k] = self.__fitness[k-1]
+                    self.__population[k] = self.__population[k-1]
+                    self.__fitness[k-1] = tmp
+                    self.__population[k-1] = temp2
+        
+    
+    def sumatoria(self):
+        suma = 0.0
+        for i in self.__fitness:
+            suma = suma + i
+        return suma
+    
+    def roulette_selection(self):
+        acumulados = []
+        new_fitness =[]
+        sum_fitness = self.sumatoria()
+        for i in self.__fitness:
+            valor = (360.0*i)/sum_fitness
+            acumulados.append(valor)
+        acum = 0.0
+        ruleta = []
+        for i in acumulados:
+            inicio = acum
+            fin = acum + i 
+            value = (inicio , fin)
+            ruleta.append(value)
+            acum = acum + i
+        
+        new_population = []
+        for i in ruleta:
+            value = uniform(0.0 , 360.0)
+            for j in range(len(ruleta)):
+                inicio = ruleta[j][0]
+                fin = ruleta[j][1]
+                if value>inicio and value <=fin:
+                    new_population.append(self.__population[j])
+                    new_fitness.append(self.__fitness[j])
+                    break
+        self.__population = new_population
+        self.__fitness = new_fitness
+                
+            
+        
+         
+        
     def crossover1point(self, index , index2):
         cadena = self.__population[index]
         cadena2 = self.__population[index2]
@@ -165,8 +241,16 @@ class Genetic(object):
         pass 
                             
     def execute(self):
-        for i in range(self.__generations):
+        '''
+        decodificar y evaluar cada miembro de la poblacion
+        '''
+        self.decode_population()
+        total_cruces = self.__prob_cr * self.__generations
+        total_mutaciones = self.__prob_mut * self.__generations
+        
+        for i in range(self.__generations):            
             print "Generacion " + str(i+1)
+            self.sort_population()
             
             '''
                seleccionar siguiente generacion --> ruleta
@@ -182,30 +266,19 @@ class Genetic(object):
 
 if __name__ == '__main__':
     
+    #cadena1 = [1,1,1,1,0,0,1,1,1,0,0]
+    #cadena2 = [1,0,1,1,0,0,0,0,1,1,1]
     initial_query = [1,1,1,0,0]
     population = [[0,0,1,0,1] , [1,1,0,0,0] , [0,1,0,1,0] , [1,1,1,1,0]]
     generations = 10
     pc = 0.8
     pm = 0.1
     genetic = Genetic(initial_query,population, generations, pc , pm)
-    cadena1 = [1,1,1,1,0,0,1,1,1,0,0]
-    cadena2 = [1,0,1,1,0,0,0,0,1,1,1]
-    print cadena1
-    print cadena2
-    #genetic.crossover1point(cadena1, cadena2)
-    genetic.crossover2points(cadena1, cadena2)
+    
+    genetic.decode_population()
+    genetic.sort_population()
+    genetic.roulette_selection()
+    
     #genetic.execute()
     
   
-    ''' 
-    func = FitnessFunction([1,0,0,1] , [0,1,1,0] , 1)
-    print func.get_fitness()
-    
-    func2 = FitnessFunction([1,0,0,1] , [0,1,1,0] , 2)
-    print func2.get_fitness()
-    
-    func3 = FitnessFunction([1,0,0,1] , [0,1,1,0] , 3)
-    print func3.get_fitness()
-    '''
-
-
