@@ -90,9 +90,14 @@ class Genetic(object):
     def print_fitness(self):
         print self.__fitness
     
+    def get_optimized_query(self):
+        return self.__optimized_query
+    
     def calculate_fitness(self , index):
         func = FitnessFunction(self.__optimized_query , self.__population[index] , 1)
         self.__fitness[index]=  func.get_fitness()
+    
+    
     
     def decode_population(self):
         threads = list()
@@ -298,8 +303,6 @@ class Genetic(object):
                 
             self.decode_population()
             self.sort_population()
-            print "Population: "
-            self.print_population()
             print "Fitness: "
             self.print_fitness()
             self.__optimized_query =self.__population[0]

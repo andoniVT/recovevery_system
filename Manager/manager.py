@@ -15,6 +15,7 @@ from Preprocesser.preprocessDocument import PreProcessor as PP
 from VectorModel.model import BooleanModel as BM
 import cPickle
 from Genetic.genetic_manager import FitnessFunction as FF
+from Genetic.genetic_manager import Genetic 
 
 class SRI_Manager(object):
     
@@ -111,8 +112,8 @@ class SRI_Manager(object):
         return index
     
     def get_relevants(self, query , matrix , relevants):
-        vec_fitness = []  
-        vec_relevants = []
+        vec_fitness = []          
+        vec_indexes = []        
         lleno = 0              
         for i in range(len(matrix)):
             vec_document = matrix[i] 
@@ -120,22 +121,18 @@ class SRI_Manager(object):
             value = fitness.get_fitness()            
             if lleno < relevants:
                 vec_fitness.append(value)
-                vec_relevants.append(vec_document)
+                vec_indexes.append(i)
                 lleno+=1
             else:
                 index = self.get_menor(vec_fitness)
                 menor = vec_fitness[index]
                 if value > menor:
-                    vec_fitness[index] = value
-                    vec_relevants[index] = vec_document
-        
-        print "Relevants: "
-        print vec_relevants
-        print "Fitness: "
-        print vec_fitness
-                                                        
-    
-    def make_query(self , query , relevants=20):
+                    vec_fitness[index] = value                
+                    vec_indexes[index] = i
+            
+        return vec_indexes
+                                                            
+    def make_query(self , query , relevants=6):
         
         processed = PP(query)
         list = processed.get_processed_document().split(' ') 
@@ -146,9 +143,31 @@ class SRI_Manager(object):
                 query_bool.append(1)
             else:
                 query_bool.append(0)
+                
+        titles = self.load_document_information(0)
+        matrix = self.load_document_information(3)
         
-        print query_bool
-        print len(query_bool)
+        index_relevants = self.get_relevants(query_bool, matrix, relevants)
+        population = []
+        for i in range(len(index_relevants)):
+            population.append(matrix[index_relevants[i]])
+        
+        
+        initial_query = query_bool           
+        generations = 10
+        pc = 0.7
+        pm = 0.01
+        tipo_cruce = 1
+        genetic = Genetic(initial_query, population , generations, pc, pm , tipo_cruce)
+        genetic.execute()
+        optimized_query = genetic.get_optimized_query()
+        
+        
+        index_relevants = self.get_relevants(optimized_query, matrix, relevants)
+        
+        for i in range(len(index_relevants)):
+            print titles[index_relevants[i]][1]
+        
         
         
         '''
@@ -158,17 +177,20 @@ class SRI_Manager(object):
           * comparar el query con todas los vectores de los documentos
           * devolver los n mas relevantes
         '''
-        
-
-    
+            
 if __name__ == '__main__':
     prueba = 'prueba/*.txt'
     
     
     #query = "ciencia de la computacion"
     manager = SRI_Manager()
-    #manager.make_query(query)
+    query = "arbol binario"
+    manager.make_query(query)
     
+    
+    
+    
+    '''
     query = [0 , 1, 0 , 0, 1]
     matrix = [[1 , 1, 0 , 0, 1] , [0 , 0, 0 , 0, 1],[1 , 1, 0 , 0, 1],
               [0 , 1, 1 , 1, 1],[1 , 1, 1 , 1, 1],[0 , 1, 1 , 0, 0],
@@ -176,16 +198,9 @@ if __name__ == '__main__':
               [0 , 1, 1 , 1, 0],[0 , 1, 0 , 0, 1],[0 , 0, 1 , 1, 0]]
     
     
-    manager.get_relevants(query, matrix, 7)
-    
-        
-    
-    
-    '''
-    manager = SRI_Manager()
-    data = manager.load_document_information(3)
-    for i in data:
-        print i 
+    relevants = manager.get_relevants(query, matrix, 2)
+    for i in relevants:
+        print i
     '''
     
     
