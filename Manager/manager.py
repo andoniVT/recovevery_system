@@ -5,17 +5,16 @@ Created on 09/11/2014
 
 @author: andoni
 '''
-
 import sys  
 reload(sys)  
 sys.setdefaultencoding('utf8')
-
 
 import glob
 from Configuration.settings import documents , name_simple_corpus , name_processed_corpus , matrix_model , document_titles , vocabulary
 from Preprocesser.preprocessDocument import PreProcessor as PP
 from VectorModel.model import BooleanModel as BM
 import cPickle
+from Genetic.genetic_manager import FitnessFunction as FF
 
 class SRI_Manager(object):
     
@@ -37,8 +36,7 @@ class SRI_Manager(object):
             word = word + file[k]
         word = word.replace('_', ' ')
         return word  
-    
-    
+        
     def load_corpus(self):
         corpus = []
         titles = []
@@ -90,20 +88,54 @@ class SRI_Manager(object):
     def load_document_information(self , type):
         if type == 0:
             file = document_titles 
-        if type==1:
+        elif type==1:
             file = name_simple_corpus
-        if type==2: 
+        elif type==2: 
             file = name_processed_corpus
-        if type==3:
+        elif type==3:
             file = matrix_model        
-        if type==4:
+        elif type==4:
             file = vocabulary  
                                            
         with open(file , 'rb') as fid:
                 clf_load = cPickle.load(fid)                            
-        return clf_load                        
+        return clf_load 
     
-    def make_query(self , query , relevants=15):
+    def get_menor(self , vector): 
+        menor = 10000000
+        index = -1        
+        for i in range(len(vector)):
+            if menor > vector[i]:
+                menor = vector[i]
+                index = i
+        return index
+    
+    def get_relevants(self, query , matrix , relevants):
+        vec_fitness = []  
+        vec_relevants = []
+        lleno = 0              
+        for i in range(len(matrix)):
+            vec_document = matrix[i] 
+            fitness = FF(query , vec_document , 1)
+            value = fitness.get_fitness()            
+            if lleno < relevants:
+                vec_fitness.append(value)
+                vec_relevants.append(vec_document)
+                lleno+=1
+            else:
+                index = self.get_menor(vec_fitness)
+                menor = vec_fitness[index]
+                if value > menor:
+                    vec_fitness[index] = value
+                    vec_relevants[index] = vec_document
+        
+        print "Relevants: "
+        print vec_relevants
+        print "Fitness: "
+        print vec_fitness
+                                                        
+    
+    def make_query(self , query , relevants=20):
         
         processed = PP(query)
         list = processed.get_processed_document().split(' ') 
@@ -133,10 +165,20 @@ if __name__ == '__main__':
     prueba = 'prueba/*.txt'
     
     
-    query = "ciencia de la computacion"
+    #query = "ciencia de la computacion"
     manager = SRI_Manager()
-    manager.make_query(query)
+    #manager.make_query(query)
     
+    query = [0 , 1, 0 , 0, 1]
+    matrix = [[1 , 1, 0 , 0, 1] , [0 , 0, 0 , 0, 1],[1 , 1, 0 , 0, 1],
+              [0 , 1, 1 , 1, 1],[1 , 1, 1 , 1, 1],[0 , 1, 1 , 0, 0],
+              [1 , 0, 0 , 0, 0],[0 , 0, 0 , 0, 0],[1 , 1, 0 , 1, 0],
+              [0 , 1, 1 , 1, 0],[0 , 1, 0 , 0, 1],[0 , 0, 1 , 1, 0]]
+    
+    
+    manager.get_relevants(query, matrix, 7)
+    
+        
     
     
     '''
@@ -145,6 +187,6 @@ if __name__ == '__main__':
     for i in data:
         print i 
     '''
-    #manager.organize_documents()
+    
     
     

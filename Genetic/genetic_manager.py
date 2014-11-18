@@ -302,12 +302,13 @@ class Genetic(object):
             self.print_population()
             print "Fitness: "
             self.print_fitness()
+            self.__optimized_query =self.__population[0]
+            print "Optimized query: "
+            print self.__optimized_query
              
 
 if __name__ == '__main__':
     
-    #cadena1 = [1,1,1,1,0,0,1,1,1,0,0]
-    #cadena2 = [1,0,1,1,0,0,0,0,1,1,1]
     initial_query = [1,1,1,0,0]
     population = [[0,0,1,0,1] , [1,1,0,0,0] , [0,1,0,1,0] , [1,1,1,1,0] , [0,0,1,1,0] , [0,0,0,0,0]]
     generations = 10
