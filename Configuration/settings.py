@@ -13,6 +13,7 @@ path = path_cicc
 
 ''' resource '''
 stop_words = path + '/Resource/stopwords_spanish.txt'
+verbs = path + '/Resource/verbs.txt'
 
 
 #souce_dir = "prueba/*.txt"

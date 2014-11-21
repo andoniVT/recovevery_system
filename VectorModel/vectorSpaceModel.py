@@ -25,11 +25,10 @@ class VectorSpaceModel(object):
             vec = i.split()
             vec_documents.append(vec)        
         self.__dictionary = corpora.Dictionary(vec_documents)
-        words_and_id = self.__dictionary.token2id
-        #print words_and_id        
+        self.__words_and_id = self.__dictionary.token2id        
         self.__corpus = [self.__dictionary.doc2bow(text) for text in vec_documents]    
-        #for i in self.__corpus:
-        #    print i            
+        for i in self.__corpus:
+            print i            
         self.__tfidf = models.TfidfModel(self.__corpus)
         self.__corpus_tf_idf = self.__tfidf[self.__corpus]
     
@@ -51,18 +50,25 @@ class VectorSpaceModel(object):
                                 
     def get_vocabulary_and_freq(self):
         vocabulary = []
-        #for i in  
+        for i in self.__words_and_id:
+            keyword = i
+            id = self.__words_and_id[i]
+            print keyword
+            print id
+            print ""
+          
     
 if __name__ == '__main__':
     
     
     documents = ['hola como estas' , 'yo estoy bien' , 'hola me llamo Andoni' , 
-                 'bien yo me llamo Jorge' , 'esto es perfecto' , 'estas te encuentras ahi']
+                 'Jorge bien yo me llamo Jorge' , 'esto es perfecto' , 'estas te encuentras ahi']
     
     model = VectorSpaceModel(documents)
     model.prepare_corpus()
     vec = model.get_frequency_vector(['estoy muy bien Jorge Andoni Valverde'])    
     vec = model.get_tf_idf_vector(['estoy muy bien Jorge Andoni Valverde'])
+    model.get_vocabulary_and_freq()
     
     
     
