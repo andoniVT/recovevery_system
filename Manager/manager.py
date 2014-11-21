@@ -23,7 +23,27 @@ class SRI_Manager(object):
         self.__titles = []
         self.__corpus = []
         self.__preprocessed_corpus = []
-        self.__matrix_model = []            
+        self.__matrix_model = []
+    
+    def get_keywords(self , documents):
+        words = []
+        for i in documents:
+            vec = i.split(' ')
+            for j in vec:
+                if not j in words:
+                    words.append(j)
+        print words 
+    
+    '''
+    def get_vocabulary(self):
+        words = []        
+        for i in self.__documents:
+            vec = i.split(' ')
+            for j in vec:
+                if not self.find_word(j, words):
+                    words.append(j)
+        return words
+    '''            
     
     def get_title_name(self , file):
         i = len(file)-1
