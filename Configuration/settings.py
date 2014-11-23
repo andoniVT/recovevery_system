@@ -13,7 +13,7 @@ path = path_home
 
 ''' resource '''
 stop_words = path + '/Resource/stopwords_spanish.txt'
-verbs = path + '/Resource/verbs.txt'
+verbs = path + '/Resource/all_verbs.txt'
 
 
 #souce_dir = "prueba/*.txt"
@@ -25,5 +25,5 @@ document_titles = 'document_titles.pk1'
 name_simple_corpus = 'corpus.pk1' 
 name_processed_corpus = 'preprocessed_corpus.pk1'
 matrix_model = 'matrix_model.pk1' 
-vocabulary = 'vocabulary.pk1'
+vocabulary = 'vocabularyFinal.pk1'
 

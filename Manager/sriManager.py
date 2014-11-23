@@ -17,6 +17,7 @@ import cPickle
 from Genetic.genetic_manager import FitnessFunction as FF
 from Genetic.genetic_manager import Genetic
 import codecs
+from random import randint
 class SRI_Manager(object):
     
     def __init__(self):
@@ -94,6 +95,9 @@ class SRI_Manager(object):
         elif type==3:
             file = matrix_model
         
+        elif type==4:
+            file = vocabulary
+        
         with open(file , 'rb') as fid:
                 clf_load = cPickle.load(fid)                            
         return clf_load
@@ -125,7 +129,9 @@ class SRI_Manager(object):
             dictionary.append(value)        
         return dictionary
     
-    def genetic_process(self):
+    
+    def get_terms_and_frequency(self):
+        # VOLVER A GENERAR EL CORPUSSSSSSSSS!!!!!!!!!!!!!!
         documents = self.load_document_information(1)
         documents_pro = []
         for i in documents:
@@ -135,8 +141,57 @@ class SRI_Manager(object):
             documents_pro.append(word)
         
         dictionary = self.get_keywords(documents_pro)
+        with open(vocabulary , 'wb') as fid:
+            cPickle.dump(dictionary, fid)
+        
         for i in dictionary:
-            print i
+            print i        
+    
+    def genetic_process(self ,size_population=100 , size_groups=6):
+        terms_and_frequency = self.load_document_information(4)
+        for i in terms_and_frequency:
+            print i        
+        sumatoria = 0.0
+        for i in terms_and_frequency:
+            sumatoria = sumatoria + i[1]        
+        N = len(terms_and_frequency)
+        media = sumatoria/N
+                
+        high_frequency = []
+        low_frequency = []
+        for i in terms_and_frequency:
+            if i[1]>= media:
+                high_frequency.append(i)
+            else:
+                low_frequency.append(i)
+        
+        print "high frequency"
+        print len(high_frequency)        
+        print "low frequency"
+        print len(low_frequency)
+        print " " 
+        print "results:"
+        
+        population = []
+        tam_high = (size_groups*30)/100
+        tam_low =  (size_groups*70)/100
+        
+        for i in range(size_population):
+            gen = []
+            for j in range(size_groups-tam_high-1):
+                index = randint(0,len(high_frequency)-1)
+                gen.append(high_frequency[index])
+            for j in range(size_groups-tam_low):
+                index = randint(0, len(low_frequency)-1)
+                gen.append(low_frequency[index])
+            print gen
+            population.append(gen)
+            
+            
+                  
+        
+        
+        
         
         
     
@@ -168,7 +223,11 @@ if __name__ == '__main__':
     
     manager = SRI_Manager()
     #manager.make_query("ciencias")
-    manager.genetic_process()
+    #manager.genetic_process()
+    manager.get_terms_and_frequency()
+    
+    
+    
     
 
     
