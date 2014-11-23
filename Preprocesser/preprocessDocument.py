@@ -14,14 +14,15 @@ import unicodedata
 from unicodedata import normalize
 import snowballstemmer
 import string
-from Configuration.settings import stop_words 
+from Configuration.settings import stop_words , verbs 
 stopWordFile = stop_words
 
 class PreProcessor(object):
     
-    def __init__(self , comment):
+    def __init__(self , comment , flag=False):
         self.__comment = comment
-        self.__new_comment = self.process_comment(self.__comment)
+        self.__remove_verbs = flag
+        self.__new_comment = self.process_comment(self.__comment)        
     
     def remove_accent(self , word):
         word= word.replace("á", "a")
@@ -94,7 +95,7 @@ class PreProcessor(object):
         lematizado = lematizado[:-1]    
         return lematizado
     
-    def remove_stop_word(self, comentario):
+    def remove_stop_word(self, comentario):    
         arch = open(stopWordFile , 'r')
         stops = []
         for line in arch:
@@ -107,20 +108,37 @@ class PreProcessor(object):
                 text_list.append(word)
         return " ".join(text_list)
     
+    def remove_verbs(self , comentario):
+        arch = open(verbs , 'r')
+        stops = []
+        for line in arch:
+            word = line.strip()
+            word = self.lemmatized_comment(word)            
+            stops.append(word)
+        text_list = []
+        words = re.split("\s+", comentario)
+        for word in words:
+            if len(word)>1 and (not word in stops):
+                text_list.append(word)
+        return " ".join(text_list)
+    
     def process_comment(self , comentario):
         comentario = self.remove_accent(comentario)
         comentario = comentario.lower()
         comentario = re.sub('@[^\s]+','',comentario) 
         comentario = re.sub('[\s]+', ' ', comentario)
         comentario = comentario.strip('\'"')
-        signos = ['$' , '1' , '2'  , '4' , '5' , '6' , '7' , '¿' , '¡' , ',']
+        signos = ['$' , '1' , '2' , '3' , '4' , '5' , '6' , '7' ,'8', '9' , '0' , '¿' , '¡' , ',']
         for c in signos:
             comentario = comentario.replace(c , "")
         predicate = lambda x:x not in string.punctuation
         comentario  = filter(predicate, comentario)
         pattern = re.compile(r"(.)\1{1,}", re.DOTALL)
         comentario = self.remove_stop_word(comentario)
-        return self.lemmatized_comment(comentario)
+        comentario = self.lemmatized_comment(comentario)
+        if self.__remove_verbs:
+            comentario = self.remove_verbs(comentario)        
+        return comentario 
     
     def get_processed_document(self):
         return self.__new_comment
@@ -129,6 +147,18 @@ if __name__ == '__main__':
     
 
     
-    asking = "Los que esta noche van a la redonda a celebrar la victoria del Equipo-Real_Madrid Real Madrid les espero para #TeQuieroMucho cuando suba el Equipo @realmurciacfsad a primera."
+    asking = "te voy a cuidar pronto"
+    asking2 = "te voy a cuido pronto"
+    asking3 = "te voy a cuidare pronto"
+    asking4 = "te voy a cuida pronto"
     procesor = PreProcessor(asking)
+    procesor2 = PreProcessor(asking2)
+    procesor3 = PreProcessor(asking3)
+    procesor4 = PreProcessor(asking4)
     print procesor.get_processed_document()
+    print procesor2.get_processed_document()
+    print procesor3.get_processed_document()
+    print procesor4.get_processed_document()
+     
+    
+    

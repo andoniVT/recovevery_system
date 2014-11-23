@@ -93,11 +93,7 @@ class SRI_Manager(object):
         
         elif type==3:
             file = matrix_model
-        '''        
-        elif type==4:
-            file = vocabulary
-        '''  
-                                           
+        
         with open(file , 'rb') as fid:
                 clf_load = cPickle.load(fid)                            
         return clf_load
@@ -129,18 +125,50 @@ class SRI_Manager(object):
             dictionary.append(value)        
         return dictionary
     
-    def make_query(self, query, relevants=10):
+    def genetic_process(self):
+        documents = self.load_document_information(1)
+        documents_pro = []
+        for i in documents:
+            pre = PP(i , True)
+            word = pre.get_processed_document()
+            word = self.removeNonAscii(word)
+            documents_pro.append(word)
+        
+        dictionary = self.get_keywords(documents_pro)
+        for i in dictionary:
+            print i
+        
+        
+    
+    def make_query(self, query, relevants=20):
         proccesed = PP(query)
         comment = proccesed.get_processed_document()
         print comment
+        titles = self.load_document_information(0)
+        matrix = self.load_document_information(3)
+        vector_model = VM()
+        vector_model.set_data(matrix[0], matrix[1], matrix[2])
+        comment_tfidf = vector_model.get_tf_idf_vector(comment)
+        print comment_tfidf
+        similitudes = vector_model.get_distances(comment_tfidf)
+        most_relevants = []
+        for i in range(relevants):
+            most_relevants.append(similitudes[i])
         
-    
-    
-    
+        indexes = []
+        for i in most_relevants:
+            indexes.append(i[0])
+        
+        print indexes 
+        for i in range(len(indexes)):
+            print titles[indexes[i]][1] 
+        
+        
 if __name__ == '__main__':
     
     manager = SRI_Manager()
-    manager.make_query("ciencia de la computacion")
+    #manager.make_query("ciencias")
+    manager.genetic_process()
     
 
     

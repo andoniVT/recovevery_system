@@ -15,7 +15,7 @@ from scipy import spatial
 
 class VectorSpaceModel(object):
     
-    def __init__(self , documents):
+    def __init__(self , documents=""):
         self.__documents = documents
         self.__dictionary = []
         self.__words_and_id = []
