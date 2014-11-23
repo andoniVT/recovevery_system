@@ -5,6 +5,9 @@ Created on 09/11/2014
 
 @author: andoni
 '''
+import sys  
+reload(sys)  
+sys.setdefaultencoding('utf8')
 
 import re
 import unicodedata
