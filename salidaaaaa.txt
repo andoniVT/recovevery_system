@@ -7197,403 +7197,6 @@
 ('celular', 1)
 ('fosforilacion', 1)
 ('oxid', 4)
-('bambitxt', 1)
-('caperucitarojatxt', 1)
-('cisnessalvajestxt', 1)
-('gatoconbotastxt', 1)
-('patitofeotxt', 1)
-('peterpantxt', 1)
-('pulgarcitotxt', 1)
-('ruisenorrosatxt', 1)
-('sastrecillovalientetxt', 1)
-('soldaditodeplomotxt', 1)
-('trescerditostxt', 1)
-('caperucitatxt', 1)
-('softwaretxt', 1)
-('ingenieriadelsoftwaretxt', 1)
-('jesucristotxt', 1)
-('diostxt', 1)
-('espiritusantotxt', 1)
-('axlrosetxt', 1)
-('gunsandrosestxt', 1)
-('sweetchildofminetxt', 1)
-('steventylertxt', 1)
-('aerosmithtxt', 1)
-('crazytxt', 1)
-('signosdepuntuaciontxt', 1)
-('arboldelacienciatxt', 1)
-('cartadeunamadretxt', 1)
-('barcosdepapeltxt', 1)
-('barrigallenacorazoncontentotxt', 1)
-('eleclipsetxt', 1)
-('yopuedocambiarelmundotxt', 1)
-('enunbosquedehojacaducatxt', 1)
-('pepitajimeneztxt', 1)
-('ladesheredadatxt', 1)
-('castillatxt', 1)
-('elpaisajecambiadecolortxt', 1)
-('decisionestxt', 1)
-('zaragozatxt', 1)
-('eltigredemalasiatxt', 1)
-('retratodellicenciadocabratxt', 1)
-('historiadedosciudadestxt', 1)
-('labarrancatxt', 1)
-('plateroyyotxt', 1)
-('laregentatxt', 1)
-('lavidaabordotxt', 1)
-('parquearqueologicotxt', 1)
-('divisiondeldiatxt', 1)
-('elhombrenovienedelmonotxt', 1)
-('decalogoparacrecerenpaztxt', 1)
-('eldesafiodelespaciotxt', 1)
-('recomendacionesusoredessocialestxt', 1)
-('arreglarelmundotxt', 1)
-('galletitastxt', 1)
-('elplanctontxt', 1)
-('loscaracolestxt', 1)
-('losdinosauriostxt', 1)
-('curiosidadesanimalestxt', 1)
-('emergencianutricionalenelcuernodeafricatxt', 1)
-('porquedonarsangretxt', 1)
-('losmicrobiostxt', 1)
-('losconstructoresdecatedralestxt', 1)
-('viajesydescubrimientosgeograficostxt', 1)
-('juegosolimpicostxt', 1)
-('disenadosparalavidatxt', 1)
-('principiosdelacienciatxt', 1)
-('puromusculotxt', 1)
-('revolucionastronomicatxt', 1)
-('lasangretxt', 1)
-('porqueempezamosacontartxt', 1)
-('iniciodelaagriculturayganaderiatxt', 1)
-('lazapateraprodigiosatxt', 1)
-('origendelchocolatetxt', 1)
-('jamonibericotxt', 1)
-('consumoeficienteyresponsabletxt', 1)
-('parquenacionalcabanerostxt', 1)
-('constituciontxt', 1)
-('costumbresdelleontxt', 1)
-('constitucionespanolatxt', 1)
-('metodologialectoratxt', 1)
-('pestenegratxt', 1)
-('lasbrujastxt', 1)
-('lailiadatxt', 1)
-('lazarillodetormestxt', 1)
-('viejecitosdelacuevatxt', 1)
-('aliciacaerinatxt', 1)
-('maridoohermanotxt', 1)
-('lastrespreguntastxt', 1)
-('eldragontxt', 1)
-('lazorraparteratxt', 1)
-('elchicoylosfrailestxt', 1)
-('laovejanegratxt', 1)
-('eldiamantetxt', 1)
-('notedetengastxt', 1)
-('romancedelcondeolinostxt', 1)
-('elzapatofugitivotxt', 1)
-('caminantenohaycaminotxt', 1)
-('lagotaderociotxt', 1)
-('findeinviernotxt', 1)
-('madrigaldeblancanievetxt', 1)
-('deanimalestxt', 1)
-('mariposadelairetxt', 1)
-('elgallodespertadortxt', 1)
-('deolaenolatxt', 1)
-('laprimaverabesabatxt', 1)
-('misdeseostxt', 1)
-('ensenarastxt', 1)
-('amorpreposicionaltxt', 1)
-('comosedibujaunpaisajetxt', 1)
-('poematxt', 1)
-('lasoledadtxt', 1)
-('elvientodelatempestadtxt', 1)
-('lapaztxt', 1)
-('sitxt', 1)
-('romanceenelestablodebelentxt', 1)
-('geraniosrosastxt', 2)
-('abuelitatxt', 1)
-('alanocturnatxt', 1)
-('algotxt', 1)
-('aqualadtxt', 1)
-('bajoelsaucetxt', 1)
-('buenhumortxt', 1)
-('cadacosaensusitiotxt', 1)
-('cincoenunavainatxt', 1)
-('colaselchicoycolaselgrandetxt', 1)
-('dospisonestxt', 1)
-('elabecedariotxt', 1)
-('elabetotxt', 1)
-('elangeltxt', 1)
-('elcaracolyelrosaltxt', 1)
-('elcerrodeloselfostxt', 1)
-('elcofrevoladortxt', 1)
-('elcompanerodeviajetxt', 1)
-('elcuellodecamisatxt', 1)
-('elduendedelatiendatxt', 1)
-('elelfodelrosaltxt', 1)
-('elgolletedebotellatxt', 1)
-('flashtxt', 3)
-('lasirenitatxt', 1)
-('lasombratxt', 1)
-('ellibromudotxt', 1)
-('ellinotxt', 1)
-('elyesquerotxt', 1)
-('enelmarremototxt', 1)
-('eslapuraverdadtxt', 1)
-('laviejalosasepulcraltxt', 1)
-('lacampanatxt', 1)
-('lacasaviejatxt', 1)
-('elnidodecisnestxt', 1)
-('elpactodeamistadtxt', 1)
-('elpatitofeotxt', 1)
-('elporquerizotxt', 1)
-('eltullidotxt', 1)
-('elviejofaroltxt', 1)
-('historiadeunamadretxt', 1)
-('ibycristinitatxt', 1)
-('juanelbobotxt', 1)
-('laagujadezurcirtxt', 1)
-('laespinosasendadelhonortxt', 1)
-('lafamiliafeliztxt', 1)
-('lagotadeaguatxt', 1)
-('lagranserpientedelmartxt', 1)
-('lahuchatxt', 1)
-('lallavedelacasatxt', 1)
-('lamargaritatxt', 1)
-('laparejadeenamoradostxt', 1)
-('lapastorayeldeshollinadortxt', 1)
-('lapiedrafilosofaltxt', 1)
-('losvecinostxt', 1)
-('loszapatosrojostxt', 1)
-('milespejostxt', 1)
-('pegajosostxt', 1)
-('pulgarcitatxt', 1)
-('loscisnessalvajestxt', 1)
-('unahistoriatxt', 1)
-('sopadepalillodemorcillatxt', 1)
-('tienequehaberdiferenciastxt', 1)
-('unahojadelcielotxt', 1)
-('unarosadelatumbadehomerotxt', 1)
-('losvestidosnuevosdelemperadortxt', 1)
-('noerabuenaparanadatxt', 1)
-('elavefenixtxt', 1)
-('elsoldaditodeplomotxt', 1)
-('gorrodedormirdelsolterontxt', 1)
-('jabalidebroncetxt', 1)
-('jardineroyelseniortxt', 1)
-('elniniotraviesotxt', 1)
-('elpequeniotuktxt', 1)
-('elruisenortxt', 1)
-('ultimodiatxt', 1)
-('elultimosueniodelviejorobletxt', 1)
-('lareinadelasnievestxt', 1)
-('laprincesaluciatxt', 1)
-('holgereldanestxt', 1)
-('princesadelguisantetxt', 1)
-('laprincesayelfrejoltxt', 1)
-('laninadelosfosforostxt', 1)
-('laninajudiatxt', 1)
-('larosamasbelladelmundotxt', 1)
-('lasciguenastxt', 1)
-('lasfloresdelapequenaidatxt', 1)
-('lashabichuelasmagicastxt', 1)
-('lomasincreibletxt', 1)
-('loquehaceelpadreestabienhechotxt', 1)
-('tiadolordemuelastxt', 1)
-('laultimaperlatxt', 1)
-('visiondelvaluartetxt', 1)
-('campeonesdesaltotxt', 1)
-('chanclosdelasuertetxt', 1)
-('kisstxt', 1)
-('paulstanleytxt', 1)
-('genesimmonstxt', 1)
-('ericsingertxt', 1)
-('tommythayertxt', 1)
-('heavymetaltxt', 1)
-('dizzireedtxt', 1)
-('cienciadelacomputaciontxt', 1)
-('criptografiatxt', 1)
-('cifradotxt', 1)
-('firmadigitaltxt', 1)
-('teoriadegrafostxt', 1)
-('estructurasdedatostxt', 1)
-('listastxt', 1)
-('arbolbinariotxt', 1)
-('matriztxt', 1)
-('arbolbinariodebusquedatxt', 1)
-('arbolrojonegrotxt', 1)
-('arbolbtxt', 2)
-('tablahashtxt', 1)
-('monticulobinariotxt', 1)
-('monticulosuavetxt', 1)
-('monticulofibonaccitxt', 1)
-('teoriadecomputaciontxt', 1)
-('teoriadeautomatastxt', 1)
-('teoriadelacomputabilidadtxt', 1)
-('complejidadcomputacionaltxt', 1)
-('analisisdealgoritmostxt', 1)
-('algoritmotxt', 1)
-('compiladortxt', 1)
-('lenguajesdeprogramaciontxt', 1)
-('basededatostxt', 1)
-('mineriadedatostxt', 1)
-('programacionconcurrentetxt', 1)
-('redesdecomputadorastxt', 1)
-('computacionparalelatxt', 1)
-('computaciondistribuidatxt', 1)
-('inteligenciaartificialtxt', 1)
-('razonamientoautomatizadotxt', 1)
-('roboticatxt', 1)
-('visionartificialtxt', 1)
-('aprendizajeautomaticotxt', 1)
-('computaciongraficatxt', 1)
-('procesodigitalporimagenestxt', 1)
-('bioinformaticatxt', 1)
-('computacioncuanticatxt', 1)
-('neurocienciacomputacionaltxt', 1)
-('ingenieriainformaticatxt', 1)
-('programaciontxt', 1)
-('deidadtxt', 1)
-('basededatosjerarquicatxt', 1)
-('basededatosderedtxt', 1)
-('basededatostransaccionalestxt', 1)
-('basededatosrelacionaltxt', 1)
-('basededatosorientadasaobjetostxt', 1)
-('futboltxt', 1)
-('cristianoronaldotxt', 1)
-('zinedinezidanetxt', 1)
-('luisfigotxt', 1)
-('fernandotorrestxt', 1)
-('hernancrespotxt', 1)
-('gianuigibuffontxt', 1)
-('zlatanibrahimovictxt', 1)
-('rioferdinandtxt', 1)
-('andriyshevchenkotxt', 1)
-('juansebastianverontxt', 1)
-('manchesterunitedtxt', 1)
-('realmadridtxt', 1)
-('juventustxt', 1)
-('acmilantxt', 1)
-('fcbarcelonatxt', 1)
-('liverpooltxt', 1)
-('parmatxt', 1)
-('laziotxt', 1)
-('intertxt', 1)
-('valenciatxt', 1)
-('diegoarmandomaradonatxt', 1)
-('lionelmessitxt', 1)
-('ikercasillastxt', 1)
-('ricardocarvalhotxt', 1)
-('pepetxt', 1)
-('sergioramostxt', 1)
-('samikhediratxt', 1)
-('kakatxt', 1)
-('karimbenzematxt', 1)
-('mesutoziltxt', 1)
-('estebangranerotxt', 1)
-('xabialonsotxt', 1)
-('fabiocoentraotxt', 1)
-('alvaroarveloatxt', 1)
-('gonzalohiguaintxt', 1)
-('angeldimariatxt', 1)
-('josemourinhotxt', 1)
-('bayernmunichtxt', 1)
-('manuelneuertxt', 1)
-('frankriberytxt', 1)
-('andresiniestatxt', 1)
-('davidvillatxt', 1)
-('cescfabregastxt', 1)
-('waynerooneytxt', 1)
-('paulscholestxt', 1)
-('medioambientetxt', 1)
-('floratxt', 1)
-('faunatxt', 1)
-('vidasilvestretxt', 1)
-('habitattxt', 1)
-('bosquetxt', 1)
-('desiertotxt', 1)
-('praderatxt', 1)
-('montaniatxt', 1)
-('marismatxt', 1)
-('sabanatxt', 1)
-('riotxt', 1)
-('pantanotxt', 1)
-('arrecifedecoraltxt', 1)
-('oceanotxt', 1)
-('playatxt', 1)
-('quebradatxt', 1)
-('lagotxt', 1)
-('altiplanotxt', 1)
-('biomatxt', 1)
-('biologiatxt', 1)
-('ecologiatxt', 1)
-('ecosistematxt', 1)
-('biocenosistxt', 1)
-('climatxt', 1)
-('temperaturatxt', 1)
-('humedadtxt', 1)
-('presiontxt', 1)
-('vientotxt', 1)
-('precipitaciontxt', 1)
-('relievetxt', 1)
-('litosferatxt', 1)
-('valletxt', 1)
-('caniontxt', 1)
-('glaciartxt', 1)
-('martxt', 1)
-('golfotxt', 1)
-('salinidadtxt', 1)
-('aguadulcetxt', 1)
-('mareatxt', 1)
-('lalunatxt', 1)
-('martetxt', 1)
-('planetatxt', 1)
-('sistemasolartxt', 1)
-('soltxt', 1)
-('estrellatxt', 1)
-('diatxt', 1)
-('eclipsesolartxt', 1)
-('meteorologiatxt', 1)
-('aristotelestxt', 1)
-('combustibletxt', 1)
-('mercuriotxt', 1)
-('venustxt', 1)
-('tierratxt', 1)
-('jupitertxt', 1)
-('saturnotxt', 1)
-('uranotxt', 1)
-('neptunotxt', 1)
-('protoplanetatxt', 1)
-('vientosolartxt', 1)
-('plasmatxt', 1)
-('cometatxt', 1)
-('heliosferatxt', 1)
-('particulasubatomicatxt', 1)
-('electrontxt', 1)
-('protontxt', 1)
-('nitrogenotxt', 1)
-('electronegatividadtxt', 1)
-('hidrogenotxt', 1)
-('magnetosferatxt', 1)
-('atmosferaterrestetxt', 1)
-('fusionnucleartxt', 1)
-('energiatxt', 1)
-('energiacineticatxt', 1)
-('energiaquimicatxt', 1)
-('masatxt', 1)
-('quechuatxt', 1)
-('mestizajetxt', 1)
-('costaperuanatxt', 1)
-('culturamochetxt', 1)
-('culturachavintxt', 1)
-('agriculturaatxt', 1)
-('pescatxt', 1)
-('petroglifotxt', 1)
-('culturahuaritxt', 1)
-('incatxt', 1)
-('culturanazcatxt', 1)
-('imperioincaicotxt', 1)
-('iglesiacatolicatxt', 1)
 (u'puntu', 10)
 (u'descuid', 1)
 (u'puntuacion', 8)
@@ -9009,6 +8612,7 @@
 (u'reca', 4)
 ('tram', 1)
 ('acaci', 2)
+('geraniosrosastxt', 1)
 ('violentisim', 1)
 ('mompracem', 1)
 ('guar', 1)
@@ -11650,3 +11254,109 @@
 ('pagam', 1)
 ('cargament', 1)
 ('aturd', 1)
+high frequency
+2021
+low frequency
+9235
+ 
+results:
+[('suficient', 27), ('caden', 13), ('pesc', 22), ('bullici', 9), ('desus', 1), ('brah', 4)]
+[('ris', 14), ('mar', 188), (u'send', 12), ('soli', 18), ('heap', 2), (u'singul', 3)]
+[('nub', 49), ('inviern', 42), ('interaccion', 19), (u'incaic', 11), ('fach', 6), (u'habermel', 1)]
+[(u'aposent', 10), ('horn', 20), ('seman', 27), ('frut', 31), (u'naufragi', 3), ('aprendi', 4)]
+[(u'accident', 9), ('discurs', 14), ('are', 38), ('distint', 66), ('pegaj', 1), (u'exhibicion', 2)]
+[('botell', 46), (u'caracol', 47), ('ocean', 29), ('ello', 74), (u'hacert', 3), (u'blend', 1)]
+[('altern', 9), ('play', 17), (u'engan', 15), ('got', 32), (u'molinill', 1), (u'foc', 2)]
+[(u'danes', 13), ('vuel', 41), (u'campesin', 43), ('cop', 92), ('inger', 1), (u'agustin', 5)]
+[(u'exist', 64), ('da', 50), (u'bloqu', 9), ('situ', 30), (u'opresor', 1), ('ferment', 1)]
+[('just', 22), ('tradicional', 9), ('escrit', 41), ('podr', 36), (u'star', 1), ('muscular', 1)]
+[(u'dat', 143), (u'convirti', 31), ('cien', 26), (u'escribi', 22), ('decimocuart', 1), ('horror', 5)]
+[(u'neptun', 15), (u'electronegat', 10), ('aliment', 38), ('pin', 10), ('entrabal', 1), ('ballest', 1)]
+[('escal', 20), ('muj', 133), ('suert', 35), (u'detr', 47), (u'medieval', 3), ('digneis', 1)]
+[(u'tempor', 59), (u'tempor', 59), ('ardient', 12), ('oia', 15), (u'camarot', 2), (u'monotoni', 2)]
+[(u'enlaz', 17), (u'mon', 11), (u'uef', 21), ('impuls', 16), ('tukey', 1), ('pard', 3)]
+[('eras', 19), ('derech', 45), ('ladrill', 9), ('troz', 19), ('lentejuel', 2), (u'caprich', 2)]
+[('saban', 11), (u'enlac', 15), ('podri', 70), ('enamor', 17), (u'analog', 7), (u'verter', 1)]
+[(u'nid', 40), (u'miel', 13), ('agu', 242), ('turing', 16), ('battl', 1), (u'tazon', 1)]
+[('lug', 113), ('tripul', 12), (u'cor', 19), (u'prad', 11), (u'mis', 3), ('regresari', 1)]
+[(u'gir', 34), (u'evangeli', 15), ('futur', 10), ('existi', 11), (u'firdusi', 1), ('mochic', 1)]
+[('portugal', 9), (u'ex', 14), ('pajar', 63), ('soberbi', 13), ('cobard', 1), (u'bioinformat', 4)]
+[('diari', 9), (u'previ', 11), ('vac', 34), ('caball', 73), ('gim', 1), ('golosin', 5)]
+[('ardi', 14), ('aves', 32), ('eh', 13), (u'fluj', 12), (u'emisor', 1), ('elfas', 1)]
+[('proton', 18), ('ram', 128), (u'activ', 31), (u'actitud', 9), ('chispaz', 1), (u'conoceis', 1)]
+[(u'trav', 63), ('cerd', 24), ('rios', 12), ('fragant', 9), (u'islas', 6), (u'implant', 1)]
+[('binari', 43), (u'limp', 17), ('pued', 490), (u'oton', 21), ('physica', 1), ('autograf', 1)]
+[('muchachit', 21), ('todavi', 47), ('metr', 17), ('abiert', 49), (u'liliam', 1), ('pacient', 3)]
+[('herm', 15), ('dispuest', 28), (u'prad', 11), ('angul', 13), ('laberint', 1), ('labr', 2)]
+[('luz', 121), ('seleccion', 53), ('ocho', 20), ('nunc', 135), (u'moctezum', 1), ('neced', 1)]
+[('espaci', 57), ('brot', 26), (u'capac', 42), ('calient', 23), (u'sot', 1), (u'consejeril', 1)]
+[('oper', 28), ('domin', 24), (u'alcald', 17), ('semej', 31), (u'propong', 1), (u'pastore', 2)]
+[(u'electr', 23), ('ves', 15), ('equip', 79), ('enamor', 17), (u'rolliz', 1), (u'epic', 2)]
+[('conoci', 31), (u'abandon', 26), ('vall', 32), ('pobr', 125), (u'intraclust', 1), (u'henot', 2)]
+[('ocean', 29), (u'document', 11), ('hambr', 21), ('gaseos', 12), ('creat', 2), (u'rastroj', 1)]
+[('biom', 19), ('rios', 12), (u'oton', 21), ('pedaz', 29), (u'nao', 1), (u'heterogene', 1)]
+[('curi', 10), (u'robot', 9), ('roman', 12), ('liverpool', 16), (u'blend', 1), (u'triton', 1)]
+[(u'visibl', 25), ('sirv', 40), ('goleador', 16), (u'teatr', 12), (u'etnografi', 1), (u'biblic', 2)]
+[('zapat', 37), ('equip', 79), ('mil', 64), ('actual', 84), ('lyonnais', 2), (u'lineal', 4)]
+[('tristez', 10), (u'biolog', 18), ('oia', 15), ('vivi', 71), (u'exfutbol', 2), (u'sofi', 3)]
+[(u'materi', 17), ('vecin', 38), ('piados', 15), ('buen', 320), ('cuidad', 7), (u'trifoli', 1)]
+[(u'comunicacion', 15), ('bland', 11), ('gracios', 13), (u'disc', 22), (u'aven', 7), (u'trill', 2)]
+[('devor', 10), ('escap', 33), ('gran', 287), (u'trag', 16), ('reirs', 3), ('retorci', 4)]
+[('aliment', 38), (u'botan', 10), ('chocolat', 12), ('gigant', 51), (u'artifici', 1), ('atrai', 2)]
+[('especial', 49), (u'apoy', 15), ('fond', 51), ('agu', 242), ('gasteropod', 1), ('espesur', 1)]
+[('integr', 19), ('estir', 11), ('cuent', 131), ('grup', 58), (u'echarm', 1), (u'client', 1)]
+[(u'apoy', 15), (u'facil', 33), (u'ole', 10), ('capaz', 39), ('desobedec', 2), ('goih', 1)]
+[(u'adem', 129), ('bes', 92), (u'ramit', 10), ('ecosistem', 20), (u'pizc', 1), (u'capt', 2)]
+[('prend', 22), ('libr', 141), ('dem', 103), (u'dand', 18), (u'benevolent', 2), (u'asaet', 1)]
+[('bob', 16), (u'apropi', 13), ('comprendi', 13), ('soli', 18), ('phipps', 1), (u'crespon', 2)]
+[('engord', 9), (u'tyler', 13), ('unid', 34), ('obtuv', 14), ('ecolog', 7), (u'manag', 1)]
+[(u'nod', 51), ('muri', 25), ('edad', 41), ('turc', 19), (u'disposicion', 2), ('replet', 3)]
+[('arrastr', 21), ('quereis', 10), (u'arco', 11), ('period', 77), ('df', 1), ('covers', 1)]
+[('apareci', 41), ('pat', 63), ('permaneci', 28), ('huec', 10), (u'anaranj', 1), (u'union', 7)]
+[(u'bond', 10), ('leid', 17), ('femenin', 12), ('conmig', 28), (u'utilizacion', 3), ('gustant', 1)]
+[('paisaj', 13), (u'hund', 9), (u'cuerd', 27), ('mas', 36), (u'sinchi', 1), (u'eucalipt', 1)]
+[('alla', 74), ('max', 9), ('sinti', 24), ('cay', 44), ('defendi', 2), (u'interdependient', 1)]
+[('complej', 29), (u'los', 10), ('fas', 12), ('dav', 14), (u'kram', 2), (u'rudolf', 2)]
+[('patron', 13), ('dur', 46), ('logr', 52), (u'mayor', 172), (u'oscil', 4), (u'denning', 1)]
+[(u'humor', 13), ('vien', 43), ('maner', 84), ('delant', 48), ('almorox', 1), ('alga', 1)]
+[('jardin', 83), (u'soci', 9), (u'ilumin', 31), ('dot', 13), (u'purpl', 2), (u'vent', 6)]
+[('profund', 67), (u'descend', 9), ('zapat', 37), (u'continuacion', 9), (u'intermedi', 5), (u'imaginart', 1)]
+[(u'huert', 9), ('mand', 41), (u'civiliz', 9), ('arbol', 301), (u'coletaz', 1), (u'fresn', 1)]
+[('sinti', 24), (u'impresion', 20), ('tont', 12), ('aficion', 17), ('agent', 8), (u'virol', 1)]
+[('pequenuel', 9), ('grup', 58), ('mamifer', 14), ('socied', 23), ('sequ', 2), (u'occident', 6)]
+[(u'escaler', 32), (u'identific', 11), ('rein', 104), ('cobr', 21), ('andriy', 1), ('brom', 8)]
+[('autor', 24), ('zuec', 10), ('delici', 20), ('tel', 36), ('ii', 7), ('modest', 6)]
+[(u'dand', 18), (u'cart', 17), ('arbol', 301), ('odi', 9), (u'mosc', 8), (u'tenis', 1)]
+[(u'accident', 9), ('alto', 77), ('quier', 128), ('vi', 29), ('origin', 8), (u'imaginat', 1)]
+[(u'estadist', 14), ('suert', 35), ('lech', 38), (u'sin', 89), ('echemosl', 1), ('doy', 8)]
+[('vay', 37), ('tant', 69), ('salon', 21), (u'seccion', 24), ('jacint', 3), ('calur', 3)]
+[(u'juguet', 26), ('obras', 11), ('arbol', 301), ('anual', 10), (u'pali', 2), ('condes', 3)]
+[(u'solteron', 9), ('hiz', 80), ('foraster', 24), ('macet', 16), (u'inscripcion', 7), (u'renac', 4)]
+[(u'afect', 18), ('montan', 44), ('interaccion', 19), ('remedi', 16), ('adhier', 1), ('sussm', 2)]
+[(u'abejorr', 9), (u'clasificacion', 14), ('debut', 23), ('gall', 38), (u'adiccion', 3), ('sumergi', 3)]
+[(u'disfrut', 13), ('habil', 19), ('jueg', 73), ('fuent', 32), ('sostendri', 1), (u'jenni', 1)]
+[(u'ole', 10), ('pues', 445), ('apart', 31), ('lind', 46), ('alar', 2), ('lucrat', 1)]
+[(u'enlaz', 17), ('difunt', 14), ('rincon', 19), (u'factor', 18), ('filip', 1), (u'criart', 1)]
+[('eurocop', 18), ('ratit', 12), (u'nav', 18), ('eurocop', 18), (u'consideres', 1), (u'lappon', 1)]
+[('primor', 17), ('golp', 42), ('apen', 40), ('montan', 44), (u'optim', 1), (u'explicol', 1)]
+[(u'empuj', 13), ('vieron', 19), ('suel', 142), ('madrug', 9), (u'sect', 1), ('deleit', 1)]
+[('impuls', 16), ('oblig', 12), (u'mineri', 15), ('kar', 14), ('quejumbr', 1), ('transcurri', 7)]
+[('quier', 128), ('vendr', 13), ('ovej', 18), (u'balanc', 13), ('envar', 1), (u'abduccion', 1)]
+[(u'proces', 85), ('flu', 9), ('labi', 22), ('tronc', 22), ('pikillact', 1), ('turbant', 1)]
+[('haci', 188), ('bolsill', 27), ('prader', 15), ('respect', 34), ('gustos', 2), (u'decapit', 3)]
+[('industrial', 11), ('aquell', 254), ('herman', 134), (u'asad', 12), ('esfer', 8), ('delfin', 6)]
+[('leyend', 22), ('region', 44), ('todavi', 47), (u'impresion', 20), (u'obsequi', 7), ('artefact', 1)]
+[('extran', 39), (u'concept', 23), ('salon', 21), ('vier', 9), (u'recurri', 1), (u'multiinstrument', 1)]
+[(u'religion', 11), ('andab', 12), (u'miel', 13), ('capit', 15), (u'prodig', 3), (u'validacion', 1)]
+[(u'opinion', 16), (u'buhardill', 11), (u'antigued', 9), ('empen', 11), (u'atrever', 1), ('singl', 1)]
+[(u'convirti', 31), (u'fuertement', 12), ('ejempl', 69), ('pies', 36), ('espesor', 1), ('sotan', 7)]
+[('veo', 17), ('blanc', 118), ('pin', 10), (u'univers', 16), (u'anonimat', 1), ('manglar', 2)]
+[('ojos', 183), (u'protocol', 11), ('portugal', 9), ('caballer', 19), (u'contenedor', 1), (u'destruction', 2)]
+[('magnif', 68), ('debi', 54), (u'inca', 14), ('algoritm', 70), (u'deteccion', 2), ('vaporiz', 1)]
+[('rock', 44), ('cajon', 19), (u'examin', 9), (u'var', 9), (u'cortij', 4), (u'brind', 5)]
+[('dam', 47), ('agost', 9), ('arbol', 301), ('hiel', 27), ('cod', 3), (u'duqu', 1)]
+[('consig', 13), ('feliz', 51), ('dijeron', 47), ('diminut', 19), ('fuentealbill', 1), (u'polimorf', 1)]
+[('encant', 12), ('flech', 9), (u'veran', 44), ('nazc', 14), ('cepillol', 1), (u'revel', 4)]
+[(u'morcill', 14), (u'biologi', 11), ('division', 42), (u'fiel', 11), ('array', 1), ('encresp', 1)]
+[('grand', 231), ('dinosauri', 9), ('posicion', 26), ('messi', 11), (u'vinculacion', 1), ('edsger', 1)]
+[('respondi', 87), (u'mon', 11), ('saturn', 15), (u'fundador', 9), (u'submarin', 4), (u'estruend', 4)]

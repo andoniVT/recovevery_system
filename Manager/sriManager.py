@@ -223,8 +223,9 @@ if __name__ == '__main__':
     
     manager = SRI_Manager()
     #manager.make_query("ciencias")
-    #manager.genetic_process()
-    manager.get_terms_and_frequency()
+    manager.genetic_process()
+   
+    
     
     
     
