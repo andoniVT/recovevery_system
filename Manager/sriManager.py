@@ -14,7 +14,6 @@ from Configuration.settings import documents , name_simple_corpus , name_process
 from Preprocesser.preprocessDocument import PreProcessor as PP
 from VectorModel.vectorSpaceModel import VectorSpaceModel as VM
 import cPickle
-from Genetic.genetic_manager import FitnessFunction as FF
 from Genetic.genetic_manager import Genetic
 import codecs
 from random import randint
@@ -147,7 +146,7 @@ class SRI_Manager(object):
         for i in dictionary:
             print i        
     
-    def genetic_process(self ,size_population=10 , size_groups=6):
+    def genetic_process(self ,size_population=3000 , size_groups=8):
         terms_and_frequency = self.load_document_information(4)
         sumatoria = 0.0
         for i in terms_and_frequency:
@@ -171,6 +170,7 @@ class SRI_Manager(object):
         print "results:"
         
         population = []
+        '''
         tam_high = (size_groups*30)/100
         tam_low =  (size_groups*70)/100
         
@@ -184,12 +184,19 @@ class SRI_Manager(object):
                 gen.append(low_frequency[index])
             print gen
             population.append(gen)
+        '''
+        
+        for i in range(size_population):
+            gen = []
+            for j in range(size_groups):
+                index = randint(0,len(high_frequency)-1)
+                gen.append(high_frequency[index])            
+            population.append(gen)
+                
+        genetic = Genetic(population, 20, 0.8 , 1)
+        genetic.execute()
             
-            
-                  
-        
-        
-        
+                    
         
         
     
