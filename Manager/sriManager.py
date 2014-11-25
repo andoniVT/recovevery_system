@@ -147,10 +147,8 @@ class SRI_Manager(object):
         for i in dictionary:
             print i        
     
-    def genetic_process(self ,size_population=100 , size_groups=6):
+    def genetic_process(self ,size_population=10 , size_groups=6):
         terms_and_frequency = self.load_document_information(4)
-        for i in terms_and_frequency:
-            print i        
         sumatoria = 0.0
         for i in terms_and_frequency:
             sumatoria = sumatoria + i[1]        
