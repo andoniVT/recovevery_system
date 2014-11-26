@@ -10,7 +10,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 import glob
-from Configuration.settings import documents , name_simple_corpus , name_processed_corpus , matrix_model , document_titles , vocabulary
+from Configuration.settings import documents , name_simple_corpus , name_processed_corpus , matrix_model , document_titles , vocabulary , query_dictionary
 from Preprocesser.preprocessDocument import PreProcessor as PP
 from VectorModel.vectorSpaceModel import VectorSpaceModel as VM
 import cPickle
@@ -89,13 +89,13 @@ class SRI_Manager(object):
         elif type==1:
             file = name_simple_corpus
         elif type==2: 
-            file = name_processed_corpus
-        
+            file = name_processed_corpus        
         elif type==3:
-            file = matrix_model
-        
+            file = matrix_model        
         elif type==4:
             file = vocabulary
+        elif type==5:
+            file = query_dictionary
         
         with open(file , 'rb') as fid:
                 clf_load = cPickle.load(fid)                            
@@ -145,11 +145,7 @@ class SRI_Manager(object):
             print i
     
     def remove_duplicate(self , matrix):
-        #set(tuple(element) for element in matrix)
         return [list(t) for t in set(tuple(element) for element in matrix)]
-            
-    
-        
     
     def genetic_process(self ,size_population=2000 , size_groups=6):
         terms_and_frequency = self.load_document_information(4)
@@ -178,15 +174,14 @@ class SRI_Manager(object):
                 index = randint(0,len(high_frequency)-1)
                 gen.append(high_frequency[index])            
             population.append(gen)
-                
-        
+                    
         ''' First evaluation'''
         genetic = Genetic(population, 15, 0.8 , 2)
         genetic.execute()        
         new_population = genetic.get_population()        
         #for i in new_population:print i                        
         mat = self.remove_duplicate(new_population)        
-        for i in mat:print i
+        #for i in mat:print i
         print "reducidos1: " + str(len(mat))
         
         '''Second evaluation'''
@@ -195,9 +190,8 @@ class SRI_Manager(object):
         new_population2 = genetic2.get_population()
         #for i in new_population2:print i
         mat2 = self.remove_duplicate(new_population2)
-        for i in mat2:print i
+        #for i in mat2:print i
         print "reducidos2: " + str(len(mat2))
-        
         
         '''Third evaluation'''
         genetic3 = Genetic(population,18,0.8,1)
@@ -205,27 +199,44 @@ class SRI_Manager(object):
         new_population3 = genetic3.get_population()
         #for i in new_population2:print i
         mat3 = self.remove_duplicate(new_population3)
-        for i in mat3:print i
+        #for i in mat3:print i
         print "reducidos3: " + str(len(mat3))
-        
-        
+                
         ''' Final results'''
         result = mat + mat2 + mat3
         result = self.remove_duplicate(result)
         for i in result:print i
         print "result: " + str(len(result))
+        
+        with open(query_dictionary , 'wb') as fid:
+            cPickle.dump(result, fid)
+    
+    def search_in_dictionary(self, keywords):
+        qDictionary = self.load_document_information(5)    
+        vec_keywords = keywords.split(' ')
+        total = 0
+        
+        sel_keywords=[]
+        i=0
+        while i < len(vec_keywords):
+            j=0
+            while j < len(qDictionary):
+                k=0
+                while k <6:
+                    if qDictionary[j][k][0] == vec_keywords[i]:
+                        sel_keywords.append(vec_keywords[i])
+                    k+=1
+                j+=1
+            i+=1
+                        
+        
+        for i in sel_keywords:
+            print i
             
-            
-       
-        
-        
-        
+          
             
         
-            
-                    
-        
-        
+                
     
     def make_query(self, query, relevants=20):
         proccesed = PP(query)
@@ -255,14 +266,8 @@ if __name__ == '__main__':
     
     manager = SRI_Manager()
     #manager.make_query("ciencias")
-    manager.genetic_process()
+    #manager.genetic_process()
+    
+    keywords = "person pued entren"
+    manager.search_in_dictionary(keywords)
    
-    
-    
-    
-    
-    
-
-    
-    
-

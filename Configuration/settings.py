@@ -26,4 +26,5 @@ name_simple_corpus = 'corpus.pk1'
 name_processed_corpus = 'preprocessed_corpus.pk1'
 matrix_model = 'matrix_model.pk1' 
 vocabulary = 'vocabularyFinal.pk1'
+query_dictionary = 'queryDictionary.pk1'
 
