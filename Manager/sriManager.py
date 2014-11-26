@@ -219,31 +219,37 @@ class SRI_Manager(object):
                          
     def search_optimized_query(self, keywords):
         qDictionary = self.load_document_information(5)    
-        vec_keywords = keywords.split(' ')
+        vec_keywords = keywords.split(' ')        
         querys = []
-        optimized = vec_keywords
+        optimized = vec_keywords    
         for i in vec_keywords:
             query = self.search_query(qDictionary, i)
-            querys = querys + query
-        
+            if query is not None:
+                querys = querys + query        
+        if len(querys)==0:
+            return keywords                
         querys = list(set(querys))
-        querys =  sorted(querys , key=lambda tup:tup[1], reverse=True)
-                
+        querys =  sorted(querys , key=lambda tup:tup[1], reverse=True)        
         new_querys = []
         for i in querys:
             if i[0] not in vec_keywords:
-                new_querys.append(i)
-
-        faltan = 8 - len(vec_keywords)
-        for i in range(faltan):
-            optimized.append(new_querys[i][0])
-        
-        return " ".join(optimized)
-        
-    def make_query(self, query, relevants=20 , use_optimized=True):
+                new_querys.append(i)                
+        faltan = 8 - len(vec_keywords)        
+        if faltan>len(new_querys):
+            for i in range(len(new_querys)):
+                optimized.append(new_querys[i][0])
+        else:
+            for i in range(faltan):
+                optimized.append(new_querys[i][0])
+        return " ".join(optimized)        
+                
+    def make_query(self, query, relevants=20 , use_optimized_query=True):
         proccesed = PP(query)
         comment = proccesed.get_processed_document()
         print comment
+        if use_optimized_query:
+            comment = self.search_optimized_query(comment)
+        print comment        
         titles = self.load_document_information(0)
         matrix = self.load_document_information(3)
         vector_model = VM()
@@ -267,12 +273,12 @@ class SRI_Manager(object):
 if __name__ == '__main__':
     
     manager = SRI_Manager()
-    #manager.make_query("ciencias")
-    #manager.genetic_process()
+    manager.make_query("algoritmo genetico")
     
-    keywords = "person pued entren"
-    query = manager.search_optimized_query(keywords)
-    print query
+    
+    
+    
+    
     
     
     
