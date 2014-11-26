@@ -127,10 +127,8 @@ class SRI_Manager(object):
             value = (words[i] , counts[i])
             dictionary.append(value)        
         return dictionary
-    
-    
+        
     def get_terms_and_frequency(self):
-        # VOLVER A GENERAR EL CORPUSSSSSSSSS!!!!!!!!!!!!!!
         documents = self.load_document_information(1)
         documents_pro = []
         for i in documents:
@@ -144,9 +142,16 @@ class SRI_Manager(object):
             cPickle.dump(dictionary, fid)
         
         for i in dictionary:
-            print i        
+            print i
     
-    def genetic_process(self ,size_population=3000 , size_groups=8):
+    def remove_duplicate(self , matrix):
+        #set(tuple(element) for element in matrix)
+        return [list(t) for t in set(tuple(element) for element in matrix)]
+            
+    
+        
+    
+    def genetic_process(self ,size_population=2000 , size_groups=6):
         terms_and_frequency = self.load_document_information(4)
         sumatoria = 0.0
         for i in terms_and_frequency:
@@ -160,32 +165,13 @@ class SRI_Manager(object):
             if i[1]>= media:
                 high_frequency.append(i)
             else:
-                low_frequency.append(i)
-        
+                low_frequency.append(i)        
         print "high frequency"
         print len(high_frequency)        
         print "low frequency"
-        print len(low_frequency)
-        print " " 
-        print "results:"
-        
+        print len(low_frequency)        
         population = []
-        '''
-        tam_high = (size_groups*30)/100
-        tam_low =  (size_groups*70)/100
-        
-        for i in range(size_population):
-            gen = []
-            for j in range(size_groups-tam_high-1):
-                index = randint(0,len(high_frequency)-1)
-                gen.append(high_frequency[index])
-            for j in range(size_groups-tam_low):
-                index = randint(0, len(low_frequency)-1)
-                gen.append(low_frequency[index])
-            print gen
-            population.append(gen)
-        '''
-        
+                
         for i in range(size_population):
             gen = []
             for j in range(size_groups):
@@ -193,8 +179,49 @@ class SRI_Manager(object):
                 gen.append(high_frequency[index])            
             population.append(gen)
                 
-        genetic = Genetic(population, 20, 0.8 , 1)
-        genetic.execute()
+        
+        ''' First evaluation'''
+        genetic = Genetic(population, 15, 0.8 , 2)
+        genetic.execute()        
+        new_population = genetic.get_population()        
+        #for i in new_population:print i                        
+        mat = self.remove_duplicate(new_population)        
+        for i in mat:print i
+        print "reducidos1: " + str(len(mat))
+        
+        '''Second evaluation'''
+        genetic2 = Genetic(population,10,0.7,1)
+        genetic2.execute()
+        new_population2 = genetic2.get_population()
+        #for i in new_population2:print i
+        mat2 = self.remove_duplicate(new_population2)
+        for i in mat2:print i
+        print "reducidos2: " + str(len(mat2))
+        
+        
+        '''Third evaluation'''
+        genetic3 = Genetic(population,18,0.8,1)
+        genetic3.execute()
+        new_population3 = genetic3.get_population()
+        #for i in new_population2:print i
+        mat3 = self.remove_duplicate(new_population3)
+        for i in mat3:print i
+        print "reducidos3: " + str(len(mat3))
+        
+        
+        ''' Final results'''
+        result = mat + mat2 + mat3
+        result = self.remove_duplicate(result)
+        for i in result:print i
+        print "result: " + str(len(result))
+            
+            
+       
+        
+        
+        
+            
+        
             
                     
         

@@ -7,8 +7,8 @@ Created on 09/11/2014
 ''' path  '''
 path_cicc = '/home/ucsp/workspace/recovevery_system'
 path_home = '/home/andoni/Escritorio/PythonProjets/InfRecoverySistem'
-path = path_cicc
-#path = path_home
+#path = path_cicc
+path = path_home
 
 
 ''' resource '''

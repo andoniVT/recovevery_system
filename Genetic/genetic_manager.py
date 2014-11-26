@@ -27,6 +27,9 @@ class Genetic(object):
         for i in self.__population:
             print i
     
+    def get_population(self):
+        return self.__population
+    
     def calculate_fitness(self , index):
         sumatoriaFreq = 0
         for i in self.__population[index]:
@@ -90,8 +93,7 @@ class Genetic(object):
         posiciones = []
         for i in range(len(self.__population)):
             posiciones.append(i)        
-        shuffle(posiciones)
-        
+        shuffle(posiciones)        
         i=0
         k=0
         while i<len(self.__population)/2:
@@ -108,17 +110,6 @@ class Genetic(object):
             i+=1 
         self.__population = new_population
         self.__fitness = new_fitness
-        
-        '''
-        i = 0
-        while i < len(self.__population)/2:
-            for j in range(2):
-                new_population.append(self.__population[i])
-                new_fitness.append(self.__fitness[i])
-            i+=1        
-        self.__population = new_population
-        self.__fitness = new_fitness
-        '''
     
     def crossover1point(self , index, index2):
         cadena = self.__population[index]
@@ -218,7 +209,6 @@ class Genetic(object):
         self.sort_population()
         for i in range(self.__generations):
             print "Generacion " + str(i+1)
-            #self.roulette_selection()
             self.tournament_selection()
             if total_cruces>=1:
                 hacer_cruce = randint(0,1)
@@ -230,12 +220,7 @@ class Genetic(object):
                     self.realizar_cruce(self.__tipo_cruce)
             self.calculate_fitness_population()
             self.sort_population()
-            print "Fitness: "
-            self.show_fitness()
-            print "Population: "
-            self.show_population()
-            print "Fin Generacion " + str(i+1)
-            print " "
+            print "ok"
                              
 if __name__ == '__main__':
     
