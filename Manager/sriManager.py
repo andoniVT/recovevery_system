@@ -210,35 +210,37 @@ class SRI_Manager(object):
         
         with open(query_dictionary , 'wb') as fid:
             cPickle.dump(result, fid)
-    
-    def search_in_dictionary(self, keywords):
+        
+    def search_query(self, dictionary, keyword):
+        for i in range(len(dictionary)):
+            for j in range(6):
+                if dictionary[i][j][0] == keyword:
+                    return dictionary[i]
+                         
+    def search_optimized_query(self, keywords):
         qDictionary = self.load_document_information(5)    
         vec_keywords = keywords.split(' ')
-        total = 0
+        querys = []
+        optimized = vec_keywords
+        for i in vec_keywords:
+            query = self.search_query(qDictionary, i)
+            querys = querys + query
         
-        sel_keywords=[]
-        i=0
-        while i < len(vec_keywords):
-            j=0
-            while j < len(qDictionary):
-                k=0
-                while k <6:
-                    if qDictionary[j][k][0] == vec_keywords[i]:
-                        sel_keywords.append(vec_keywords[i])
-                    k+=1
-                j+=1
-            i+=1
-                        
-        
-        for i in sel_keywords:
-            print i
-            
-          
-            
-        
+        querys = list(set(querys))
+        querys =  sorted(querys , key=lambda tup:tup[1], reverse=True)
                 
-    
-    def make_query(self, query, relevants=20):
+        new_querys = []
+        for i in querys:
+            if i[0] not in vec_keywords:
+                new_querys.append(i)
+
+        faltan = 8 - len(vec_keywords)
+        for i in range(faltan):
+            optimized.append(new_querys[i][0])
+        
+        return " ".join(optimized)
+        
+    def make_query(self, query, relevants=20 , use_optimized=True):
         proccesed = PP(query)
         comment = proccesed.get_processed_document()
         print comment
@@ -269,5 +271,11 @@ if __name__ == '__main__':
     #manager.genetic_process()
     
     keywords = "person pued entren"
-    manager.search_in_dictionary(keywords)
+    query = manager.search_optimized_query(keywords)
+    print query
+    
+    
+    
+    
+    
    
