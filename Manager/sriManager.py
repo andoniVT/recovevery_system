@@ -273,8 +273,10 @@ class SRI_Manager(object):
 if __name__ == '__main__':
     
     manager = SRI_Manager()
-    manager.make_query("algoritmo genetico")
     
+    '''
+    manager.make_query("algoritmo genetico")
+    '''
     
     
     

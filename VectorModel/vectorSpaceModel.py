@@ -32,8 +32,8 @@ class VectorSpaceModel(object):
         self.__dictionary = corpora.Dictionary(vec_documents)
         self.__words_and_id = self.__dictionary.token2id        
         self.__corpus = [self.__dictionary.doc2bow(text) for text in vec_documents]    
-        for i in self.__corpus:
-            print i            
+        #for i in self.__corpus:
+        #    print i            
         self.__tfidf = models.TfidfModel(self.__corpus)
         self.__corpus_tf_idf = self.__tfidf[self.__corpus]
         for i in self.__corpus_tf_idf:
@@ -55,26 +55,33 @@ class VectorSpaceModel(object):
     def get_distances(self , vec_tf):
         index = similarities.MatrixSimilarity(self.__tfidf[self.__corpus_tf_idf])
         sims = index[vec_tf]        
-        return sorted(enumerate(sims) , key=lambda item: -item[1])  
+        return sorted(enumerate(sims) , key=lambda item: -item[1])
+    
+    def get_tf_value(self , id):
+        for i in self.__corpus_tf_idf:
+            for j in i:
+                if j[0] == id:                
+                    return j[1]
+            
+        
     
 if __name__ == '__main__':
     
-    pass
-    '''
-    documentoss = ['hola como estas' , 'yo estoy bien' , 'hola me llamo Andoni' , 
+    
+    
+    documents = ['hola como estas' , 'yo estoy bien' , 'hola me llamo Andoni' , 
                  'Jorge bien yo me llamo Jorge' , 'esto es perfecto' , 'estas te encuentras ahi']
     
     model = VectorSpaceModel(documents)
     model.prepare_corpus()
     #vec = model.get_frequency_vector(['estoy muy bien Jorge Andoni Valverde'])    
     vec = model.get_tf_idf_vector('estoy muy bien Jorge Andoni Valverde')
+    
+    print model.get_tf_value(15)
+    
+    '''
     similitudes = model.get_distances(vec)
     for i in similitudes:
         print i
-    
     '''
-    '''
-    index = similarities.MatrixSimilarity(tfidf[corpus])
-    sims = index[vec_tf]
-    print sorted(enumerate(sims), key=lambda item: -item[1])
-    ''' 
+     
