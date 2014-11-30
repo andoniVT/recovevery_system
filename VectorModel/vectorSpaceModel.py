@@ -36,8 +36,8 @@ class VectorSpaceModel(object):
         #    print i            
         self.__tfidf = models.TfidfModel(self.__corpus)
         self.__corpus_tf_idf = self.__tfidf[self.__corpus]
-        for i in self.__corpus_tf_idf:
-            print i            
+        #for i in self.__corpus_tf_idf:
+         #   print i            
         return [self.__dictionary, self.__tfidf, self.__corpus_tf_idf]
     
     def set_data(self, dic, tfidf, ctfidf):
@@ -62,6 +62,19 @@ class VectorSpaceModel(object):
             for j in i:
                 if j[0] == id:                
                     return j[1]
+                  
+    def get_key(self , id):
+        for i in self.__dictionary.token2id:
+            id_value = self.__dictionary.token2id[i]
+            key =  i
+            if id == id_value:
+                return key 
+    
+    def get_len_vocabulary(self):
+        return len(self.__dictionary)
+             
+        
+        
             
         
     
@@ -78,6 +91,10 @@ if __name__ == '__main__':
     vec = model.get_tf_idf_vector('estoy muy bien Jorge Andoni Valverde')
     
     print model.get_tf_value(15)
+    
+    print model.get_key(9)
+    
+    print model.get_len_vocabulary()
     
     '''
     similitudes = model.get_distances(vec)

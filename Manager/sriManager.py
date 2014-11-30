@@ -111,36 +111,28 @@ class SRI_Manager(object):
         return -1
                 
     def get_keywords(self , documents):
-        words = []
-        counts = []
-        for i in documents:
-            vec = i.split()
-            for j in vec:
-                if not j in words:
-                    words.append(j)
-                    counts.append(1)
-                else:
-                    index = self.find(words, j)
-                    counts[index]+=1
+        model = VM(documents)
+        model.prepare_corpus()
+        len_dictionary = model.get_len_vocabulary()
         dictionary = []
-        for i in range(len(words)):
-            value = (words[i] , counts[i])
-            dictionary.append(value)        
+        for i in range(len_dictionary):
+            key = model.get_key(i)
+            tfidf = model.get_tf_value(i)
+            value = (key , tfidf)
+            dictionary.append(value)
         return dictionary
-        
-    def get_terms_and_frequency(self):
+            
+    def get_terms_and_frequency(self):           
         documents = self.load_document_information(1)
         documents_pro = []
         for i in documents:
             pre = PP(i , True)
             word = pre.get_processed_document()
             word = self.removeNonAscii(word)
-            documents_pro.append(word)
-        
+            documents_pro.append(word)        
         dictionary = self.get_keywords(documents_pro)
         with open(vocabulary , 'wb') as fid:
-            cPickle.dump(dictionary, fid)
-        
+            cPickle.dump(dictionary, fid)        
         for i in dictionary:
             print i
     
@@ -257,15 +249,18 @@ class SRI_Manager(object):
         comment_tfidf = vector_model.get_tf_idf_vector(comment)
         print comment_tfidf
         similitudes = vector_model.get_distances(comment_tfidf)
+        print similitudes
+        
         most_relevants = []
         for i in range(relevants):
             most_relevants.append(similitudes[i])
         
         indexes = []
-        for i in most_relevants:
-            indexes.append(i[0])
+        for i in range(len(most_relevants)):
+            if similitudes[i][1]>0:
+                indexes.append(most_relevants[i][0])
         
-        print indexes 
+          
         for i in range(len(indexes)):
             print titles[indexes[i]][1] 
         
@@ -274,9 +269,12 @@ if __name__ == '__main__':
     
     manager = SRI_Manager()
     
-    '''
-    manager.make_query("algoritmo genetico")
-    '''
+    
+    
+    manager.make_query("marte")
+    
+    
+    
     
     
     

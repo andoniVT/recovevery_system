@@ -34,7 +34,8 @@ class Genetic(object):
         sumatoriaFreq = 0
         for i in self.__population[index]:
             sumatoriaFreq = sumatoriaFreq + i[1]
-        value = 1 - (sumatoriaFreq/float(self.__nDocuments))
+        #value = 1 - (sumatoriaFreq/float(self.__nDocuments))
+        value = sumatoriaFreq/len(self.__population[index])
         self.__fitness[index] = value
     
     def calculate_fitness_population(self):
@@ -48,7 +49,7 @@ class Genetic(object):
     def sort_population(self):
         for i in range(len(self.__fitness)):
             for k in range(len(self.__fitness)-1 , i , -1):
-                if self.__fitness[k]<self.__fitness[k-1]:
+                if self.__fitness[k]>self.__fitness[k-1]:
                     tmp = self.__fitness[k]
                     tmp2 = self.__population[k]
                     self.__fitness[k] = self.__fitness[k-1]
@@ -100,7 +101,7 @@ class Genetic(object):
             for j in range(2):
                 index = posiciones[k]
                 index2 = posiciones[k+1]
-                if self.__fitness[index] < self.__fitness[index2]:
+                if self.__fitness[index] > self.__fitness[index2]:
                     new_population.append(self.__population[index])
                     new_fitness.append(self.__fitness[index])
                 else:
